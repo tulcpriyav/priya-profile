@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tulasi Priya Vattikuti - Writing</title>
+    <link>https://www.abhinavnarne.com/writing</link>
+    <description>Articles on AI security, LLM red teaming, and trust &amp; safety by Tulasi Priya Vattikuti.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Feb 2026 20:03:30 GMT</lastBuildDate>
+    <atom:link href="https://www.abhinavnarne.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Notes on the Claude Code 2.1.0 outage</title>
+      <link>https://www.abhinavnarne.com/writing/claude-code-outage</link>
+      <description>A changelog formatting change took down Claude Code. Lessons about parsing human docs as machine data.</description>
+      <pubDate>Thu, 08 Jan 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.abhinavnarne.com/writing/claude-code-outage</guid>
+    </item>
+    <item>
+      <title>Notes on the Eurostar chatbot &quot;vulnerability&quot; report</title>
+      <link>https://www.abhinavnarne.com/writing/eurostar-chatbot-analysis</link>
+      <description>Looking at what makes something a vulnerability versus a hardening opportunity in LLM applications.</description>
+      <pubDate>Mon, 05 Jan 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.abhinavnarne.com/writing/eurostar-chatbot-analysis</guid>
+    </item>
+    <item>
+      <title>What I learned shipping 1,000+ PRs with Claude Code</title>
+      <link>https://www.abhinavnarne.com/writing/shipping-with-claude-code</link>
+      <description>Notes from using Claude Code in parallel git worktrees: Plan Mode, ultrathink, verification loops, and Chrome automation.</description>
+      <pubDate>Sat, 03 Jan 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.abhinavnarne.com/writing/shipping-with-claude-code</guid>
+    </item>
+    <item>
+      <title>How AI Regulation Changed in 2025</title>
+      <link>https://www.promptfoo.dev/blog/ai-regulation-2025/</link>
+      <description>Why &quot;AI compliance questions&quot; appeared in security questionnaires and RFPs, and how policy becomes contract requirements.</description>
+      <pubDate>Mon, 15 Dec 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/ai-regulation-2025/</guid>
+    </item>
+    <item>
+      <title>Why Attack Success Rate (ASR) Isn&apos;t Comparable Across Jailbreak Papers</title>
+      <link>https://www.promptfoo.dev/blog/asr-not-portable-metric/</link>
+      <description>ASR isn&apos;t portable across papers because measurement choices dominate the headline number. Includes math and a checklist for reading papers.</description>
+      <pubDate>Fri, 12 Dec 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/asr-not-portable-metric/</guid>
+    </item>
+    <item>
+      <title>GPT-5.2 Initial Trust and Safety Assessment</title>
+      <link>https://www.promptfoo.dev/blog/gpt-5.2-trust-safety-assessment/</link>
+      <description>Day-zero red team of GPT-5.2 focusing on jailbreak resilience and harmful content.</description>
+      <pubDate>Thu, 11 Dec 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/gpt-5.2-trust-safety-assessment/</guid>
+    </item>
+    <item>
+      <title>Real-Time Fact Checking for LLM Outputs</title>
+      <link>https://www.promptfoo.dev/blog/llm-search-rubric-assertions/</link>
+      <description>Introduces search-rubric, an assertion where a search-enabled judge verifies time-sensitive claims during evals and CI.</description>
+      <pubDate>Fri, 28 Nov 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/llm-search-rubric-assertions/</guid>
+    </item>
+    <item>
+      <title>When AI becomes the attacker: The rise of AI-orchestrated cyberattacks</title>
+      <link>https://www.promptfoo.dev/blog/anthropic-threat-intelligence-vibe-hacking/</link>
+      <description>Connects malware querying LLMs at runtime with &quot;vibe hacking&quot; case studies. Defense needs continuous testing.</description>
+      <pubDate>Mon, 10 Nov 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/anthropic-threat-intelligence-vibe-hacking/</guid>
+    </item>
+    <item>
+      <title>Reinforcement Learning with Verifiable Rewards Makes Models Faster, Not Smarter</title>
+      <link>https://www.promptfoo.dev/blog/rlvr-explained/</link>
+      <description>RLVR gains are often &quot;search compression&quot; rather than new reasoning ability.</description>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/rlvr-explained/</guid>
+    </item>
+    <item>
+      <title>Prompt Injection vs Jailbreaking: What&apos;s the Difference?</title>
+      <link>https://www.promptfoo.dev/blog/jailbreaking-vs-prompt-injection/</link>
+      <description>Jailbreaking targets model safety training; prompt injection targets application trust boundaries.</description>
+      <pubDate>Mon, 18 Aug 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/jailbreaking-vs-prompt-injection/</guid>
+    </item>
+    <item>
+      <title>AI Safety vs AI Security in LLM Applications: What Teams Must Know</title>
+      <link>https://www.promptfoo.dev/blog/ai-safety-vs-security/</link>
+      <description>Safety protects people from harmful outputs; security protects systems from adversarial manipulation.</description>
+      <pubDate>Sun, 17 Aug 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/ai-safety-vs-security/</guid>
+    </item>
+    <item>
+      <title>Evaluating political bias in LLMs</title>
+      <link>https://www.promptfoo.dev/blog/grok-4-political-bias/</link>
+      <description>Open methodology and dataset (2,500 political statements) to measure political leaning in models.</description>
+      <pubDate>Thu, 24 Jul 2025 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.promptfoo.dev/blog/grok-4-political-bias/</guid>
+    </item>
+  </channel>
+</rss>

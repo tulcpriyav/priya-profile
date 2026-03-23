@@ -1,0 +1,10 @@
+{
+  "name": "personal-site-abhinav",
+  "compatibility_date": "2026-02-23",
+  "build": {
+    "command": "npm run build"
+  },
+  "assets": {
+    "directory": "./out"
+  }
+}
