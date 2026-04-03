@@ -45,7 +45,7 @@ const data: ContactItem[] = [
     icon: faFacebookF,
   },
   {
-    link: 'mailto:hi@abhinavnarne.com',
+    link: 'mailto:hello@tulasipriya.com',
     label: 'Email',
     icon: faEnvelope,
   },

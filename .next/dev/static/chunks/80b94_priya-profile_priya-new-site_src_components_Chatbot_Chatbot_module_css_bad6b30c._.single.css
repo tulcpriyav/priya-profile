@@ -1,0 +1,377 @@
+/* [project]/Documents/priya-profile/priya-new-site/src/components/Chatbot/Chatbot.module.css [app-client] (css) */
+.Chatbot-module__l3JKSG__floatingButton {
+  background: var(--color-accent);
+  width: 56px;
+  height: 56px;
+  color: var(--color-white);
+  cursor: pointer;
+  box-shadow: 0 4px 12px var(--color-overlay-darker);
+  z-index: 999;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: 1;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.Chatbot-module__l3JKSG__floatingButton:hover {
+  background: var(--color-accent-hover);
+  box-shadow: 0 6px 16px var(--color-overlay-darker);
+  transform: scale(1.1);
+}
+
+.Chatbot-module__l3JKSG__floatingButton:active {
+  transform: scale(.95);
+}
+
+.Chatbot-module__l3JKSG__chatIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.Chatbot-module__l3JKSG__closeIcon {
+  font-size: 32px;
+  font-weight: 300;
+  position: absolute;
+}
+
+.Chatbot-module__l3JKSG__backdrop {
+  background: var(--color-overlay-darker);
+  z-index: 999;
+  position: fixed;
+  inset: 0;
+}
+
+.Chatbot-module__l3JKSG__modal {
+  background: var(--color-bg);
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  box-shadow: 0 5px 40px var(--color-overlay-darker);
+  z-index: 1000;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  flex-direction: column;
+  animation: .3s ease-out Chatbot-module__l3JKSG__slideUp;
+  display: flex;
+  position: fixed;
+  bottom: 88px;
+  right: 24px;
+  overflow: hidden;
+}
+
+@keyframes Chatbot-module__l3JKSG__slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Chatbot-module__l3JKSG__header {
+  background: var(--color-accent);
+  color: var(--color-white);
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  display: flex;
+}
+
+.Chatbot-module__l3JKSG__title {
+  color: var(--color-white);
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Chatbot-module__l3JKSG__closeButton {
+  color: var(--color-white);
+  cursor: pointer;
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 24px;
+  transition: opacity .2s;
+  display: flex;
+}
+
+.Chatbot-module__l3JKSG__closeButton:hover {
+  opacity: .8;
+}
+
+.Chatbot-module__l3JKSG__messagesContainer {
+  background: var(--color-bg-alt);
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+  padding: 16px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.Chatbot-module__l3JKSG__message {
+  gap: 8px;
+  animation: .3s ease-in Chatbot-module__l3JKSG__fadeIn;
+  display: flex;
+}
+
+@keyframes Chatbot-module__l3JKSG__fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Chatbot-module__l3JKSG__message.Chatbot-module__l3JKSG__user {
+  justify-content: flex-end;
+}
+
+.Chatbot-module__l3JKSG__message.Chatbot-module__l3JKSG__bot {
+  justify-content: flex-start;
+}
+
+.Chatbot-module__l3JKSG__messageContent {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border-radius: 12px;
+  max-width: 85%;
+  padding: 10px 14px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.Chatbot-module__l3JKSG__message.Chatbot-module__l3JKSG__user .Chatbot-module__l3JKSG__messageContent {
+  background: var(--color-accent);
+  color: var(--color-white);
+  border-radius: 12px 4px 12px 12px;
+}
+
+.Chatbot-module__l3JKSG__message.Chatbot-module__l3JKSG__bot .Chatbot-module__l3JKSG__messageContent {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px 12px 12px;
+}
+
+.Chatbot-module__l3JKSG__typingIndicator {
+  align-items: center;
+  gap: 4px;
+  display: inline-flex;
+}
+
+.Chatbot-module__l3JKSG__typingIndicator span {
+  background: currentColor;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  animation: 1.4s infinite Chatbot-module__l3JKSG__typing;
+}
+
+.Chatbot-module__l3JKSG__typingIndicator span:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.Chatbot-module__l3JKSG__typingIndicator span:nth-child(3) {
+  animation-delay: .4s;
+}
+
+@keyframes Chatbot-module__l3JKSG__typing {
+  0%, 60%, 100% {
+    opacity: .3;
+  }
+
+  30% {
+    opacity: 1;
+  }
+}
+
+.Chatbot-module__l3JKSG__inputForm {
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+  flex-shrink: 0;
+  gap: 8px;
+  padding: 12px;
+  display: flex;
+}
+
+.Chatbot-module__l3JKSG__input {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  color: var(--color-fg);
+  border-radius: 6px;
+  flex: 1;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  transition: border-color .2s;
+}
+
+.Chatbot-module__l3JKSG__input:focus {
+  border-color: var(--color-accent);
+  background: var(--color-bg);
+  outline: none;
+}
+
+.Chatbot-module__l3JKSG__input:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.Chatbot-module__l3JKSG__suggestedQuestionsContainer {
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.Chatbot-module__l3JKSG__suggestedButton {
+  border: 1px solid var(--color-accent);
+  background: var(--color-accent-light);
+  min-width: 100px;
+  color: var(--color-accent);
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 16px;
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all .2s;
+  overflow: hidden;
+}
+
+.Chatbot-module__l3JKSG__suggestedButton:hover {
+  background: var(--color-accent);
+  color: var(--color-white);
+  transform: translateY(-1px);
+}
+
+.Chatbot-module__l3JKSG__suggestedButton:active {
+  transform: translateY(0);
+}
+
+.Chatbot-module__l3JKSG__suggestedPagesContainer {
+  border-top: 1px solid var(--color-border);
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  display: flex;
+}
+
+.Chatbot-module__l3JKSG__pageSuggestionLabel {
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.Chatbot-module__l3JKSG__pageLink {
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  cursor: pointer;
+  background: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-block;
+}
+
+.Chatbot-module__l3JKSG__pageLink:hover {
+  background: var(--color-accent-light);
+  border-color: var(--color-accent-hover);
+}
+
+.Chatbot-module__l3JKSG__sendButton {
+  background: var(--color-accent);
+  width: 36px;
+  height: 36px;
+  color: var(--color-white);
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s, transform .2s;
+  display: flex;
+}
+
+.Chatbot-module__l3JKSG__sendButton:hover:not(:disabled) {
+  opacity: .9;
+  background: var(--color-accent-hover);
+  transform: scale(1.05);
+}
+
+.Chatbot-module__l3JKSG__sendButton:active:not(:disabled) {
+  transform: scale(.95);
+}
+
+.Chatbot-module__l3JKSG__sendButton:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.Chatbot-module__l3JKSG__sendButton svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 480px) {
+  .Chatbot-module__l3JKSG__floatingButton {
+    width: 48px;
+    height: 48px;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .Chatbot-module__l3JKSG__modal {
+    width: calc(100% - 32px);
+    max-width: none;
+    height: 70vh;
+    bottom: 72px;
+    right: 16px;
+  }
+
+  .Chatbot-module__l3JKSG__messagesContainer {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .Chatbot-module__l3JKSG__messageContent {
+    font-size: 13px;
+  }
+
+  .Chatbot-module__l3JKSG__input {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=80b94_priya-profile_priya-new-site_src_components_Chatbot_Chatbot_module_css_bad6b30c._.single.css.map*/
