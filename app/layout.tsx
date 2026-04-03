@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Raleway, Source_Sans_3 } from 'next/font/google';
 import Script from 'next/script';
 
+import { Chatbot } from '@/components/Chatbot';
 import GoogleAnalytics from '@/components/Template/GoogleAnalytics';
 import Navigation from '@/components/Template/Navigation';
 import ScrollToTop from '@/components/Template/ScrollToTop';
@@ -26,8 +27,7 @@ const raleway = Raleway({
   adjustFontFallback: true,
 });
 
-const siteDescription =
-  'AI/ML Engineer | AWS Certified | Scrum Certified';
+const siteDescription = 'AI/ML Engineer | AWS Certified | Scrum Certified';
 
 export const metadata: Metadata = {
   title: {
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: '/images/priya.jpeg',
+        url: '/images/abhi.jpeg',
         width: 400,
         height: 400,
         alt: AUTHOR_NAME,
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     creator: TWITTER_HANDLE,
     title: AUTHOR_NAME,
     description: siteDescription,
-    images: ['/images/priya.jpeg'],
+    images: ['/images/abhi.jpeg'],
   },
   robots: {
     index: true,
@@ -107,6 +107,7 @@ export default function RootLayout({
           {children}
         </div>
         <GoogleAnalytics />
+        <Chatbot />
       </body>
     </html>
   );

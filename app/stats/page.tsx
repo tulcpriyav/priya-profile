@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 
 import Personal from '@/components/Stats/Personal';
-import Site from '@/components/Stats/Site';
 
 import PageWrapper from '@/components/Template/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Stats',
-  description: "Some statistics about Tulasi Priya Vattikuti and abhinavnarne.com",
+  description:
+    'Some statistics about Tulasi Priya Vattikuti and abhinavnarne.com',
 };
 
 export default function StatsPage() {
@@ -22,10 +22,6 @@ export default function StatsPage() {
           <section>
             <h2 className="stats-section-title">About me</h2>
             <Personal />
-          </section>
-          <section>
-            <h2 className="stats-section-title">This site</h2>
-            <Site />
           </section>
         </div>
       </section>

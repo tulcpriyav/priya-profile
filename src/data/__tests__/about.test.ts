@@ -13,11 +13,6 @@ describe('about data', () => {
     expect(aboutMarkdown).toContain('Promptfoo');
   });
 
-  it('contains the history section', () => {
-    expect(aboutMarkdown).toContain('# Some History');
-    expect(aboutMarkdown).toContain('MS-DOS');
-  });
-
   it('contains the likes section', () => {
     expect(aboutMarkdown).toContain('# I Like');
     expect(aboutMarkdown).toContain('Running');

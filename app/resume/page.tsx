@@ -25,7 +25,11 @@ export default function ResumePage() {
         <header className="resume-header">
           <h1 className="resume-title">Resume</h1>
           <p className="resume-summary">
-            Engineering leader with 10+ years building products and teams. Currently a AI/ML Engineer at CGI, I have deep expertise in Java and AWS-driven cloud solutions. I focus on building reliable systems that support business growth while maintaining engineering excellence.
+            Engineering leader with 10+ years building products and teams.
+            Currently a AI/ML Engineer at CGI, I have deep expertise in Java and
+            AWS-driven cloud solutions. I focus on building reliable systems
+            that support business growth while maintaining engineering
+            excellence.
           </p>
         </header>
 

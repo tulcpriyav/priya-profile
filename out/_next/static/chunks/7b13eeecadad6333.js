@@ -1,0 +1,250 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([
+  'object' == typeof document ? document.currentScript : void 0,
+  83029,
+  (e) => {
+    'use strict';
+    var t = e.i(43476),
+      l = e.i(71645);
+    function i(e) {
+      let { width: i, height: s, priority: a = !1, className: n = '' } = e,
+        [c, r] = (0, l.useState)(!1);
+      return ((0, l.useEffect)(() => {
+        r(!0);
+      }, []),
+      c)
+        ? (0, t.jsxs)('span', {
+            className: 'theme-portrait '.concat(n),
+            children: [
+              (0, t.jsx)('img', {
+                src: '/images/priya.jpeg',
+                alt: 'Tulasi Priya Vattikuti',
+                width: i,
+                height: s,
+                loading: a ? 'eager' : 'lazy',
+                decoding: 'async',
+                className: 'theme-portrait-light',
+              }),
+              (0, t.jsx)('img', {
+                src: '/images/priya.jpeg',
+                alt: 'Tulasi Priya Vattikuti',
+                width: i,
+                height: s,
+                loading: 'lazy',
+                decoding: 'async',
+                className: 'theme-portrait-dark',
+                'aria-hidden': 'true',
+              }),
+            ],
+          })
+        : (0, t.jsx)('span', { className: 'theme-portrait '.concat(n) });
+    }
+    e.s(['default', () => i]);
+  },
+  55466,
+  (e) => {
+    'use strict';
+    var t = e.i(43476),
+      l = e.i(71645);
+    let i = [
+      { name: 'Experience', id: 'experience' },
+      { name: 'Education', id: 'education' },
+      { name: 'Skills', id: 'skills' },
+      { name: 'Courses', id: 'courses' },
+      { name: 'References', id: 'references' },
+    ];
+    function s() {
+      let [e, s] = (0, l.useState)('experience'),
+        a = (0, l.useRef)(null);
+      return (
+        (0, l.useEffect)(() => {
+          if ('u' > typeof IntersectionObserver)
+            return (
+              a.current && a.current.disconnect(),
+              (a.current = new IntersectionObserver(
+                (e) => {
+                  let t = e.filter((e) => e.isIntersecting),
+                    l = null;
+                  if (
+                    (t.length > 0
+                      ? (l = t.reduce((e, t) =>
+                          t.intersectionRatio > e.intersectionRatio ? t : e,
+                        ))
+                      : e.length > 0 &&
+                        (l = e.reduce((e, t) => {
+                          let l = Math.abs(e.boundingClientRect.top);
+                          return Math.abs(t.boundingClientRect.top) < l ? t : e;
+                        })),
+                    l)
+                  ) {
+                    let e = i.find((e) => e.id === l.target.id);
+                    e && s(e.id);
+                  }
+                },
+                {
+                  rootMargin: '-20% 0px -75% 0px',
+                  threshold: [0, 0.25, 0.5, 0.75, 1],
+                },
+              )),
+              i.forEach((e) => {
+                let { id: t } = e,
+                  l = document.getElementById(t);
+                if (l) {
+                  var i;
+                  null == (i = a.current) || i.observe(l);
+                }
+              }),
+              () => {
+                var e;
+                null == (e = a.current) || e.disconnect();
+              }
+            );
+        }, []),
+        (0, t.jsx)('nav', {
+          className: 'resume-nav',
+          'aria-label': 'Resume sections',
+          children: i.map((l) =>
+            (0, t.jsx)(
+              'a',
+              {
+                href: '#'.concat(l.id),
+                className: 'resume-nav-link '.concat(
+                  e === l.id ? 'active' : '',
+                ),
+                'aria-current': e === l.id ? 'location' : void 0,
+                children: l.name,
+              },
+              l.id,
+            ),
+          ),
+        })
+      );
+    }
+    e.s(['default', () => s]);
+  },
+  29434,
+  (e) => {
+    'use strict';
+    var t = e.i(43476),
+      l = e.i(71645);
+    function i(e) {
+      let { handleClick: l, isActive: i, label: s } = e;
+      return (0, t.jsx)('button', {
+        className: 'skillbutton '.concat(i ? 'skillbutton-active' : ''),
+        type: 'button',
+        onClick: () => l(s),
+        'aria-pressed': i,
+        children: s,
+      });
+    }
+    function s(e) {
+      var l;
+      let { data: i, categories: s } = e,
+        { category: a, competency: n, title: c } = i,
+        r = null == (l = s.find((e) => a.includes(e.name))) ? void 0 : l.color,
+        o =
+          n >= 5 ? 'skill-tag--lg' : n >= 4 ? 'skill-tag--md' : 'skill-tag--sm';
+      return (0, t.jsx)('span', {
+        className: 'skill-tag '.concat(o),
+        style: { '--tag-color': r },
+        title: ''.concat(c, ': ').concat(n, ' out of ').concat(5),
+        'aria-label': ''
+          .concat(c, ': proficiency ')
+          .concat(n, ' out of ')
+          .concat(5),
+        children: (0, t.jsx)('span', {
+          className: 'skill-tag-name',
+          children: c,
+        }),
+      });
+    }
+    function a(e, t) {
+      if ('TOGGLE_CATEGORY' !== t.type) return e;
+      {
+        let l = {};
+        for (let i of Object.keys(e)) l[i] = t.label === i && !e[i];
+        return (l.All = !Object.keys(e).some((e) => l[e])), l;
+      }
+    }
+    function n(e) {
+      let { skills: n, categories: c } = e,
+        r = Object.fromEntries(
+          [['All', !1]].concat(
+            c.map((e) => {
+              let { name: t } = e;
+              return [t, !1];
+            }),
+          ),
+        ),
+        [o, u] = (0, l.useReducer)(a, r),
+        d = (0, l.useCallback)((e) => {
+          u({ type: 'TOGGLE_CATEGORY', label: e });
+        }, []),
+        m = (0, l.useMemo)(
+          () =>
+            Object.keys(o).map((e) =>
+              (0, t.jsx)(i, { label: e, isActive: o[e], handleClick: d }, e),
+            ),
+          [o, d],
+        ),
+        h = Object.keys(o).reduce((e, t) => (o[t] ? t : e), 'All'),
+        p = (0, l.useMemo)(() => {
+          let e = [...n]
+            .sort((e, t) =>
+              e.competency !== t.competency
+                ? t.competency - e.competency
+                : e.title.localeCompare(t.title),
+            )
+            .filter((e) => 'All' === h || e.category.includes(h));
+          return 'All' === h
+            ? c.reduce((t, l) => {
+                let i = e.filter((e) => e.category.includes(l.name));
+                return i.length > 0 && (t[l.name] = i), t;
+              }, {})
+            : { [h]: e };
+        }, [n, c, h]);
+      return (0, t.jsxs)('div', {
+        className: 'skills',
+        children: [
+          (0, t.jsx)('div', { className: 'link-to', id: 'skills' }),
+          (0, t.jsx)('div', {
+            className: 'title',
+            children: (0, t.jsx)('h3', { children: 'Skills' }),
+          }),
+          (0, t.jsx)('div', {
+            className: 'skill-button-container',
+            children: m,
+          }),
+          (0, t.jsx)('div', {
+            className: 'skill-groups',
+            children: Object.entries(p).map((e) => {
+              let [l, i] = e,
+                a = c.find((e) => e.name === l),
+                n = { '--skill-category-color': null == a ? void 0 : a.color };
+              return (0, t.jsxs)(
+                'div',
+                {
+                  className: 'skill-group',
+                  children: [
+                    (0, t.jsx)('h4', {
+                      className: 'skill-group-title',
+                      style: n,
+                      children: l,
+                    }),
+                    (0, t.jsx)('div', {
+                      className: 'skill-tags',
+                      children: i.map((e) =>
+                        (0, t.jsx)(s, { data: e, categories: c }, e.title),
+                      ),
+                    }),
+                  ],
+                },
+                l,
+              );
+            }),
+          }),
+        ],
+      });
+    }
+    e.s(['default', () => n], 29434);
+  },
+]);

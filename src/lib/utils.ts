@@ -4,7 +4,7 @@
 
 // Site configuration
 export const SITE_URL = 'https://www.abhinavnarne.com';
-export const AUTHOR_NAME = "Tulasi Priya Vattikuti";
+export const AUTHOR_NAME = 'Tulasi Priya Vattikuti';
 export const TWITTER_HANDLE = '';
 
 // Image dimension constants
@@ -35,4 +35,24 @@ export function formatDate(dateStr: string): string {
     month: 'long',
     day: 'numeric',
   });
+}
+
+/**
+ * Calculates age based on birth date (YYYY-MM-DD format)
+ */
+export function calculateAge(birthDateStr: string): number {
+  const today = new Date();
+  const [year, month, day] = birthDateStr.split('-').map(Number);
+
+  let age = today.getFullYear() - year;
+
+  // Adjust if birthday hasn't occurred yet this year
+  if (
+    today.getMonth() < month - 1 ||
+    (today.getMonth() === month - 1 && today.getDate() < day)
+  ) {
+    age--;
+  }
+
+  return age;
 }

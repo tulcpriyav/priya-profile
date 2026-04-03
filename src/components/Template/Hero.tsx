@@ -19,13 +19,18 @@ export default function Hero() {
           <a href="https://www.minimed.com/" className="hero-highlight">
             Minimed
           </a>
-          , I bring deep expertise in Java and AWS-driven cloud solutions.
-          <br />
-          I focus on building reliable systems that support business growth while maintaining engineering excellence.
+          , I bring strong expertise in data engineering and cloud-based ML
+          infrastructure, with a focus on building scalable, reliable data
+          pipelines that power intelligent systems. I specialize in transforming
+          raw data into high-quality, model-ready datasets, enabling efficient
+          machine learning workflows and real-time insights. I am committed to
+          designing robust, production-grade solutions that support business
+          growth while upholding high standards of performance, reliability, and
+          engineering excellence.
         </p>
 
         <div className="hero-chips">
-          <span className="hero-chip">Valpo Alum</span>
+          <span className="hero-chip">FIT Alum</span>
           <span className="hero-chip">Developer</span>
           <span className="hero-chip">Pioneer</span>
         </div>

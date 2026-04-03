@@ -7,7 +7,7 @@ import data from '@/data/projects';
 export const metadata: Metadata = {
   title: 'Archive',
   description:
-    "Early projects and experiments from Tulasi Priya Vattikuti (2015 and earlier).",
+    'Early projects and experiments from Tulasi Priya Vattikuti (2015 and earlier).',
 };
 
 export default function ProjectsPage() {
