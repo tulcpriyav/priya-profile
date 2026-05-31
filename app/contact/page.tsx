@@ -7,7 +7,7 @@ import PageWrapper from '@/components/Template/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact Tulasi Priya Vattikuti via email @ hi@abhinavnarne.com',
+  description: 'Contact Tulasi Priya Vattikuti via email @ hello@priyavattikuti.com',
 };
 
 export default function ContactPage() {

@@ -3,7 +3,7 @@
  */
 
 // Site configuration
-export const SITE_URL = 'https://www.abhinavnarne.com';
+export const SITE_URL = 'https://www.priyavattikuti.com';
 export const AUTHOR_NAME = 'Tulasi Priya Vattikuti';
 export const TWITTER_HANDLE = '';
 

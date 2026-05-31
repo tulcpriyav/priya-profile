@@ -129,7 +129,7 @@ I'm also AWS Certified Solutions Architect and hold Scrum Master certification.`
 Check out my Projects page for detailed case studies and links to my work.`,
     suggestedPages: [
       { title: 'Browse all projects', path: '/projects' },
-      { title: 'View on GitHub', path: 'https://github.com/abhinavnarne' },
+      { title: 'View on GitHub', path: 'https://github.com/tulcpriyav' },
     ],
   },
   {
@@ -167,9 +167,9 @@ Check out my Projects page for detailed case studies and links to my work.`,
     category: 'contact',
     answer: `You can reach me at:
 • Email: hello@tulasipriya.com
-• LinkedIn: linkedin.com/in/abhinavnarne
-• GitHub: github.com/abhinavnarne
-• Twitter: twitter.com/dangelosaurus
+• LinkedIn: linkedin.com/in/tulasipriya
+• GitHub: github.com/tulcpriyav
+• Instagram: instagram.com/priyeah_v
 
 Head to the Contact page for all my social links!`,
     suggestedPages: [{ title: 'Go to Contact page', path: '/contact' }],

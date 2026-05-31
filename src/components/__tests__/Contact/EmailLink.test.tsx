@@ -29,7 +29,7 @@ describe('EmailLink', () => {
   it('renders the email domain', () => {
     render(<EmailLink />);
 
-    expect(screen.getByText('@abhinavnarne.com')).toBeInTheDocument();
+    expect(screen.getByText('@priyavattikuti.com')).toBeInTheDocument();
   });
 
   it('renders as a link element', () => {
@@ -128,7 +128,7 @@ describe('EmailLink', () => {
     });
 
     const link = screen.getByRole('link');
-    expect(link.getAttribute('href')).toBe('mailto:hi@abhinavnarne.com');
+    expect(link.getAttribute('href')).toBe('mailto:hello@priyavattikuti.com');
   });
 
   it('has invalid class when email prefix is invalid', async () => {
