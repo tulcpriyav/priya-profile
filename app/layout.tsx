@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: '/images/abhi.jpeg',
+        url: '/images/priya.jpeg',
         width: 400,
         height: 400,
         alt: AUTHOR_NAME,
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     creator: TWITTER_HANDLE,
     title: AUTHOR_NAME,
     description: siteDescription,
-    images: ['/images/abhi.jpeg'],
+    images: ['/images/priya.jpeg'],
   },
   robots: {
     index: true,
