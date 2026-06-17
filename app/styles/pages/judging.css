@@ -1,0 +1,95 @@
+/* ========================================
+   JUDGING PAGE STYLES
+   ======================================== */
+
+.judging-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.judging-header {
+  margin-bottom: 2rem;
+}
+
+.judging-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.judging-intro {
+  line-height: 1.6;
+}
+
+.judging-intro p {
+  margin: 0;
+  font-size: var(--text-base);
+  color: var(--color-fg-light);
+}
+
+.judging-section {
+  line-height: 1.6;
+}
+
+.judging-section h2 {
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: 1rem;
+  color: var(--color-fg);
+}
+
+.judging-section p {
+  margin: 0 0 1rem 0;
+  font-size: var(--text-base);
+  color: var(--color-fg-light);
+}
+
+.judging-section p:last-child {
+  margin-bottom: 0;
+}
+
+.judging-projects {
+  margin-top: 1rem;
+}
+
+.judging-projects h3 {
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: 1rem;
+  color: var(--color-fg);
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.projects-list li {
+  padding: 0.75rem;
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  color: var(--color-fg-light);
+  text-align: center;
+}
+
+.judging-reflection {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.judging-reflection p {
+  margin: 0 0 1rem 0;
+  font-size: var(--text-base);
+  color: var(--color-fg-light);
+}
+
+.judging-reflection p:last-child {
+  margin-bottom: 0;
+}

@@ -19,8 +19,12 @@ const routes: Route[] = [
     path: '/resume',
   },
   {
-    label: 'Writing',
+    label: 'Research & Writing',
     path: '/writing',
+  },
+  {
+    label: 'Judging & Volunteering',
+    path: '/judging',
   },
   {
     label: 'Contact',

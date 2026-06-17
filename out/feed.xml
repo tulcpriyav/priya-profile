@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tulasi Priya Vattikuti - Writing</title>
-    <link>https://www.abhinavnarne.com/writing</link>
+    <link>https://www.priyavattikuti.com/writing</link>
     <description>Articles on AI security, LLM red teaming, and trust &amp; safety by Tulasi Priya Vattikuti.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2026 03:32:32 GMT</lastBuildDate>
-    <atom:link href="https://www.abhinavnarne.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 17 Jun 2026 02:50:23 GMT</lastBuildDate>
+    <atom:link href="https://www.priyavattikuti.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Notes on the Claude Code 2.1.0 outage</title>
-      <link>https://www.abhinavnarne.com/writing/claude-code-outage</link>
+      <link>https://www.priyavattikuti.com/writing/claude-code-outage</link>
       <description>A changelog formatting change took down Claude Code. Lessons about parsing human docs as machine data.</description>
       <pubDate>Thu, 08 Jan 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.abhinavnarne.com/writing/claude-code-outage</guid>
+      <guid isPermaLink="true">https://www.priyavattikuti.com/writing/claude-code-outage</guid>
     </item>
     <item>
       <title>Notes on the Eurostar chatbot &quot;vulnerability&quot; report</title>
-      <link>https://www.abhinavnarne.com/writing/eurostar-chatbot-analysis</link>
+      <link>https://www.priyavattikuti.com/writing/eurostar-chatbot-analysis</link>
       <description>Looking at what makes something a vulnerability versus a hardening opportunity in LLM applications.</description>
       <pubDate>Mon, 05 Jan 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.abhinavnarne.com/writing/eurostar-chatbot-analysis</guid>
+      <guid isPermaLink="true">https://www.priyavattikuti.com/writing/eurostar-chatbot-analysis</guid>
     </item>
     <item>
       <title>What I learned shipping 1,000+ PRs with Claude Code</title>
-      <link>https://www.abhinavnarne.com/writing/shipping-with-claude-code</link>
+      <link>https://www.priyavattikuti.com/writing/shipping-with-claude-code</link>
       <description>Notes from using Claude Code in parallel git worktrees: Plan Mode, ultrathink, verification loops, and Chrome automation.</description>
       <pubDate>Sat, 03 Jan 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.abhinavnarne.com/writing/shipping-with-claude-code</guid>
+      <guid isPermaLink="true">https://www.priyavattikuti.com/writing/shipping-with-claude-code</guid>
     </item>
     <item>
       <title>How AI Regulation Changed in 2025</title>

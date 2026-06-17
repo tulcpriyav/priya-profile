@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /api
 
-Sitemap: https://www.abhinavnarne.com/sitemap.xml
+Sitemap: https://www.priyavattikuti.com/sitemap.xml

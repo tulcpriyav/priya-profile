@@ -7,16 +7,16 @@ export interface Degree {
 
 const degrees: Degree[] = [
   {
-    school: 'Valparaiso University',
-    degree: "Master's in Information and Technology Management",
-    link: 'https://valpo.edu',
-    year: 2016,
+    school: 'Florida Institute of Technology',
+    degree: 'M.S Computer Information Systems',
+    link: 'https://www.fit.edu',
+    year: 2018,
   },
   {
-    school: 'K.L.University',
-    degree: "Bachelor's in Computer Science and Engineering",
-    link: 'https://klu.edu.in',
-    year: 2012,
+    school: 'GITAM University',
+    degree: 'Bachelor of Technology in Information Technology',
+    link: 'https://www.gitam.edu',
+    year: 2014,
   },
 ];
 
