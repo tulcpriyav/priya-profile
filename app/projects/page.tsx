@@ -5,9 +5,9 @@ import PageWrapper from '@/components/Template/PageWrapper';
 import data from '@/data/projects';
 
 export const metadata: Metadata = {
-  title: 'Archive',
+  title: 'Projects',
   description:
-    'Early projects and experiments from Tulasi Priya Vattikuti (2015 and earlier).',
+    'A collection of products, experiments, and hackathon builds from Tulasi Priya Vattikuti.',
 };
 
 export default function ProjectsPage() {
@@ -18,15 +18,16 @@ export default function ProjectsPage() {
     <PageWrapper>
       <section className="projects-page">
         <header className="projects-header">
-          <h1 className="page-title">Archive</h1>
+          <h1 className="page-title">Projects</h1>
           <p className="page-subtitle">
-            Early projects and experiments from my student years
+            A collection of products, experiments, and hackathon builds that
+            reflect how I explore ideas through technology.
           </p>
         </header>
 
         {featuredProjects.length > 0 && (
           <section className="projects-featured">
-            <h2 className="projects-section-title">Hackathons &amp; Awards</h2>
+            <h2 className="projects-section-title">Featured Work</h2>
             <div className="projects-grid projects-grid--featured">
               {featuredProjects.map((project) => (
                 <Cell data={project} key={project.title} />
@@ -37,7 +38,7 @@ export default function ProjectsPage() {
 
         {otherProjects.length > 0 && (
           <section className="projects-other">
-            <h2 className="projects-section-title">Side Projects</h2>
+            <h2 className="projects-section-title">Additional Projects</h2>
             <div className="projects-grid">
               {otherProjects.map((project) => (
                 <Cell data={project} key={project.title} />
