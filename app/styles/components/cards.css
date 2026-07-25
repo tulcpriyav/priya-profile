@@ -14,15 +14,33 @@
     display: inline-block;
     position: relative;
     line-height: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
   /* Light mode: show light image, hide dark */
   .theme-portrait-light {
     display: block;
+    width: 100%;
+    height: 100%;
   }
 
   .theme-portrait-dark {
     display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Ensure images inside theme portrait fill the container and are cropped nicely */
+  .theme-portrait img,
+  .theme-portrait-light,
+  .theme-portrait-dark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
   }
 }
 

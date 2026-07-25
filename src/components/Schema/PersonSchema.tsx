@@ -22,7 +22,7 @@ export default function PersonSchema() {
     '@type': 'Person',
     name: AUTHOR_NAME,
     url: SITE_URL,
-    image: `${SITE_URL}/images/priya.jpeg`,
+    image: `${SITE_URL}/images/priyanew.jpeg`,
     jobTitle: currentJob.position,
     ...(email && { email }),
     sameAs: socialLinks,

@@ -39,7 +39,7 @@ export default function ThemePortrait({
     <span className={`theme-portrait ${className}`}>
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/priya.jpeg"
+        src="/images/priyanew.jpeg"
         alt="Tulasi Priya Vattikuti"
         width={width}
         height={height}
@@ -49,7 +49,7 @@ export default function ThemePortrait({
       />
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/priya.jpeg"
+        src="/images/priyanew.jpeg"
         alt="Tulasi Priya Vattikuti"
         width={width}
         height={height}

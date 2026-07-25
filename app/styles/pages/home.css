@@ -23,8 +23,8 @@
 /* Portrait */
 .hero-avatar {
   width: 160px;
-  height: 160px;
-  margin: 0 auto 2.5rem;
+  height: 200px;
+  margin: 0 auto 2rem;
   border-radius: var(--radius-xl);
   position: relative;
   box-shadow:
@@ -67,6 +67,11 @@
   height: 100%;
   object-fit: cover;
   border-radius: var(--radius-xl);
+}
+
+/* Shift cropping slightly upward to preserve the top of the head */
+.hero-avatar img {
+  object-position: 50% 18%;
 }
 
 /* Name */
@@ -187,7 +192,7 @@
 
   .hero-avatar {
     width: 140px;
-    height: 140px;
+    height: 180px;
     margin-bottom: 2rem;
   }
 
