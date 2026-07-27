@@ -17,13 +17,7 @@ export default function Footer() {
             <p className="footer-role">AI/ML Engineer</p>
             <p className="footer-copyright">
               &copy; {new Date().getFullYear()} ·{' '}
-              <a
-                href="https://github.com/abhinavnarne/personal-site"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Source
-              </a>
+              <span className="footer-source">Source</span>
             </p>
           </div>
         </div>
