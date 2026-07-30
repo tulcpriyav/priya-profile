@@ -224,7 +224,8 @@
   color: #f4f7ff;
 }
 
-[data-theme='dark'] .book-role {
+[data-theme='dark'] .book-role,
+[data-theme='dark'] .book-role-list {
   color: #d9e6ff;
 }
 
@@ -270,6 +271,87 @@
 
 [data-theme='dark'] .book-card h2 {
   color: #eef4ff;
+}
+
+[data-theme='dark'] .book-eyebrow,
+[data-theme='dark'] .book-role,
+[data-theme='dark'] .book-subtitle,
+[data-theme='dark'] .book-card > p,
+[data-theme='dark'] .book-card blockquote,
+[data-theme='dark'] .book-release-label,
+[data-theme='dark'] .book-small-lead,
+[data-theme='dark'] .book-chapter-list span,
+[data-theme='dark'] .book-author-roles li,
+[data-theme='dark'] .book-newsletter-list li,
+[data-theme='dark'] .book-milestone-month {
+  color: #bdd2f3;
+}
+
+[data-theme='dark'] .book-icon-card,
+[data-theme='dark'] .book-audience-card,
+[data-theme='dark'] .book-chapter-list li,
+[data-theme='dark'] .book-milestone-item,
+[data-theme='dark'] .book-newsletter-form input,
+[data-theme='dark'] .book-author-photo {
+  background: rgba(16, 22, 33, 0.96);
+  border-color: rgba(189, 210, 243, 0.22);
+}
+
+[data-theme='dark'] .book-gain-card {
+  background: linear-gradient(180deg, rgba(19, 24, 32, 0.96), rgba(15, 19, 26, 0.98));
+  border-color: rgba(189, 210, 243, 0.18);
+}
+
+[data-theme='dark'] .book-gain-icon {
+  background: rgba(255, 153, 0, 0.12);
+  border-color: rgba(255, 153, 0, 0.28);
+}
+
+[data-theme='dark'] .book-gain-title {
+  color: #eef4ff;
+}
+
+[data-theme='dark'] .book-gain-text {
+  color: #b7c7e6;
+}
+
+[data-theme='dark'] .book-icon-card p,
+[data-theme='dark'] .book-audience-card p,
+[data-theme='dark'] .book-chapter-list p,
+[data-theme='dark'] .book-milestone-stage,
+[data-theme='dark'] .book-release-year {
+  color: #edf3ff;
+}
+
+[data-theme='dark'] .book-progress-meta {
+  color: #e4ecff;
+}
+
+[data-theme='dark'] .book-progress-track {
+  background: rgba(189, 210, 243, 0.2);
+}
+
+[data-theme='dark'] .book-newsletter-form input {
+  color: #f0f4ff;
+}
+
+[data-theme='dark'] .book-newsletter-form input::placeholder {
+  color: #9fb4da;
+}
+
+[data-theme='dark'] .book-milestone-status-completed {
+  background: rgba(53, 208, 143, 0.2);
+  color: #92f0c9;
+}
+
+[data-theme='dark'] .book-milestone-status-current {
+  background: rgba(255, 153, 0, 0.22);
+  color: #ffd69b;
+}
+
+[data-theme='dark'] .book-milestone-status-upcoming {
+  background: rgba(146, 173, 218, 0.2);
+  color: #dbe7ff;
 }
 
 /* Prose links use text-decoration only, no background-image */

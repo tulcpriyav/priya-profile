@@ -166,7 +166,7 @@ Check out my Projects page for detailed case studies and links to my work.`,
     ],
     category: 'contact',
     answer: `You can reach me at:
-• Email: hello@tulasipriya.com
+  • Email: tulcpriya@gmail.com
 • LinkedIn: linkedin.com/in/tulasipriya
 • GitHub: github.com/tulcpriyav
 • Instagram: instagram.com/priyeah_v

@@ -27,7 +27,7 @@ const data: ContactItem[] = [
     icon: faInstagram,
   },
   {
-    link: 'mailto:hello@tulasipriya.com',
+    link: 'mailto:tulcpriya@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
