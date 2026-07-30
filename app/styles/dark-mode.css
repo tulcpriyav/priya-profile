@@ -287,6 +287,13 @@
   color: #bdd2f3;
 }
 
+[data-theme='dark'] .book-release-year {
+  border-color: rgba(255, 153, 0, 0.45);
+  background: linear-gradient(180deg, rgba(255, 153, 0, 0.18), rgba(255, 153, 0, 0.1));
+  color: #ffd69b;
+  box-shadow: 0 10px 20px rgba(255, 153, 0, 0.12);
+}
+
 [data-theme='dark'] .book-icon-card,
 [data-theme='dark'] .book-audience-card,
 [data-theme='dark'] .book-chapter-list li,
@@ -337,6 +344,10 @@
 
 [data-theme='dark'] .book-newsletter-form input::placeholder {
   color: #9fb4da;
+}
+
+[data-theme='dark'] .book-footer-quote p {
+  color: #c9d9f7;
 }
 
 [data-theme='dark'] .book-milestone-status-completed {

@@ -25,34 +25,34 @@ export default function BookLandingPage() {
 
   const bookGains = [
     {
-      icon: '☁️',
-      title: 'Practical AWS-native architectures',
-      text: 'For building modern AI platforms that are ready for production.',
+      icon: '📦',
+      title: 'AWS Architecture',
+      text: 'Learn proven AWS architectures for designing secure, scalable, and resilient Enterprise AI platforms.',
     },
     {
       icon: '🤖',
-      title: 'Enterprise Generative AI and Agentic AI',
-      text: 'Implementation patterns for emerging enterprise AI practices.',
-    },
-    {
-      icon: '🔒',
-      title: 'Security, governance, and responsible AI',
-      text: 'Best practices for safe, compliant, and trusted deployment.',
+      title: 'Generative AI',
+      text: 'Build enterprise-grade Generative AI applications using Amazon Bedrock, RAG, AI agents, and modern LLM patterns.',
     },
     {
       icon: '⚙️',
-      title: 'Scalable, production-grade AI blueprints',
-      text: 'Reusable patterns you can adapt across teams and workloads.',
+      title: 'MLOps',
+      text: 'Create reliable ML pipelines for training, deployment, monitoring, and continuous improvement.',
+    },
+    {
+      icon: '🔒',
+      title: 'Security',
+      text: 'Implement governance, identity, compliance, and responsible AI practices for enterprise environments.',
+    },
+    {
+      icon: '☁️',
+      title: 'Enterprise Architecture',
+      text: 'Design cloud-native architectures that are scalable, resilient, secure, and optimized for Enterprise AI workloads.',
     },
     {
       icon: '📊',
-      title: 'Real-world case studies',
-      text: 'Lessons learned from enterprise AI projects and delivery work.',
-    },
-    {
-      icon: '🚀',
-      title: 'From experimentation to production',
-      text: 'Clear pathways for creating measurable business value.',
+      title: 'Real-world Projects',
+      text: 'Explore practical case studies, reference architectures, and implementation lessons from enterprise AI projects.',
     },
   ];
 
@@ -265,18 +265,9 @@ export default function BookLandingPage() {
 
           <article className="book-card">
             <h2>Why This Book Matters Now</h2>
-            <p>
-              Artificial Intelligence is transforming every industry, yet many
-              organizations struggle to move beyond proof-of-concepts. Building
-              production-ready AI systems requires more than choosing the right
-              model. It demands scalable architectures, secure data platforms,
-              governance, MLOps, and a clear strategy for delivering measurable
-              business value.
-              <br />
-              <br />
-              This book bridges the gap between AI theory and real-world
-              implementation by sharing practical patterns, proven AWS
-              architectures, and lessons learned from enterprise projects.
+            <p className="book-small-lead">
+              A practical roadmap for building secure, scalable, and
+              production-ready Enterprise AI on AWS.
             </p>
             <div className="book-gain-grid">
               {bookGains.map((gain) => (
@@ -330,6 +321,14 @@ export default function BookLandingPage() {
           </ul>
           <BookNewsletterForm />
         </section>
+
+        <footer className="book-footer-quote" aria-label="Book quote">
+          <p>
+            “Great AI systems aren&apos;t built by models alone—they&apos;re
+            built through thoughtful architecture, reliable engineering, and
+            continuous learning.”
+          </p>
+        </footer>
       </section>
     </PageWrapper>
   );
