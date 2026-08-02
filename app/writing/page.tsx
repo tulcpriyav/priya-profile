@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import PageWrapper from '@/components/Template/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Research & Writing',
+  title: 'Publications & Research',
   description: 'Research papers and technical articles on Generative AI, AWS cloud architecture, data governance, and scalable engineering practices.',
 };
 
@@ -92,7 +92,7 @@ export default function WritingPage() {
     <PageWrapper>
       <article className="writing-page">
         <header className="writing-header">
-          <h1 className="page-title">Research & Writing</h1>
+          <h1 className="page-title">Publications & Research</h1>
         </header>
 
         <div className="writing-content">

@@ -74,6 +74,87 @@
   color: color-mix(in srgb, var(--color-accent) 85%, black);
 }
 
+.about-research {
+  margin-top: 2.5rem;
+}
+
+.about-research-title {
+  font-size: var(--text-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-fg-bold);
+  margin: 0 0 0.75rem;
+  letter-spacing: var(--tracking-tight);
+}
+
+.about-research-intro {
+  color: var(--color-fg-light);
+  margin: 0 0 1.25rem;
+}
+
+.about-research-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+@media screen and (min-width: 640px) {
+  .about-research-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.about-research-card {
+  display: block;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  transition:
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s var(--ease-out),
+    border-color 0.3s var(--ease-out);
+}
+
+.about-research-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--color-accent);
+  box-shadow:
+    0 18px 40px color-mix(in srgb, var(--color-fg-bold) 18%, transparent),
+    0 0 0 1px var(--color-accent-border);
+}
+
+.about-research-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-light);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.about-research-card:hover .about-research-icon {
+  transform: scale(1.08);
+}
+
+.about-research-card-title {
+  margin: 0;
+  color: var(--color-fg-bold);
+  font-size: var(--text-md);
+  font-weight: var(--font-weight-bold);
+}
+
+.about-research-card-subtitle {
+  margin: 0.35rem 0 0;
+  color: var(--color-fg-light);
+  font-size: var(--text-sm);
+}
+
 /* ========================================
    CONTACT PAGE
    ======================================== */
