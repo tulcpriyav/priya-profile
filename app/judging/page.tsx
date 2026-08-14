@@ -33,19 +33,22 @@ export default function JudgingPage() {
         <div className="judging-content">
           <section className="judging-intro">
             <p>
-              I enjoy using technology to solve real-world problems, and I am committed to supporting the next generation
+              I enjoy using technology to solve real-world problems and am committed to supporting the next generation
               of student innovators. Alongside my work in AI, cloud engineering, data platforms, and software
-              development, I contribute time as a judge for STEM competitions and technology mentorship programs.
+              development, I contribute as a STEM competition judge and volunteer committee member, supporting technology
+              education, mentorship, and career exploration.
             </p>
           </section>
 
           <section className="judging-section">
             <div className="judging-heading">
-              <img
-                src="/images/technovation.jpg"
-                alt="Technovation Girls logo"
-                className="judging-logo"
-              />
+              <a href="https://technovationchallenge.org/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/technovation.jpg"
+                  alt="Technovation Girls logo"
+                  className="judging-logo"
+                />
+              </a>
               <h2>Technovation Girls — Judge</h2>
             </div>
             <p>
@@ -81,11 +84,13 @@ export default function JudgingPage() {
 
           <section className="judging-section">
             <div className="judging-heading">
-              <img
-                src="/images/tsaconference.jpg"
-                alt="National TSA Conference logo"
-                className="judging-logo"
-              />
+              <a href="https://tsaweb.org/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/tsaconference.jpg"
+                  alt="National TSA Conference logo"
+                  className="judging-logo"
+                />
+              </a>
               <h2>National TSA Conference — Judge</h2>
             </div>
             <p>
@@ -100,6 +105,36 @@ export default function JudgingPage() {
             <p>
               This opportunity reinforced my passion for supporting STEM education and helping young innovators build
               confidence in their skills, leadership, and creative thinking.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
+              <a href="https://www.womenintechnology.org/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/witlogo.jpg"
+                  alt="Women in Technology logo"
+                  className="judging-logo"
+                />
+              </a>
+              <div>
+                <h2>Women in Technology (WIT)</h2>
+                <p><strong>Girls in Technology Committee Member</strong></p>
+              </div>
+            </div>
+            <p>
+              I currently serve on the Girls in Technology Committee at <strong>Women in Technology (WIT)</strong>,
+              contributing to the ideation, development, and implementation of STEM programs and workshops for students.
+            </p>
+            <p>
+              In this role, I collaborate with committee members to propose new program ideas, strengthen existing
+              initiatives, and help transform ideas into engaging educational experiences. I bring my background in
+              AI/ML, generative AI, cloud technologies, healthcare technology, and data engineering to support programs
+              that encourage students to explore technology and pursue future STEM opportunities.
+            </p>
+            <p>
+              Through this ongoing committee service, I support WIT's mission of expanding technology education,
+              mentorship, and career exposure for the next generation of innovators.
             </p>
           </section>
 
