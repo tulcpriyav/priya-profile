@@ -7,11 +7,8 @@ import { calculateAge } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Learn about Tulasi Priya Vattikuti - AI/ML Engineer.',
+  description: 'Learn about Tulasi Priya Vattikuti - Senior AI/ML Engineer specializing in enterprise AI, AWS, healthcare technology, and generative AI.',
 };
-
-const countWords = (str: string) =>
-  str.split(/\s+/).filter((word) => word !== '').length;
 
 const researchProfiles = [
   {
@@ -50,7 +47,7 @@ export default function AboutPage() {
         <header className="about-header">
           <h1 className="page-title">About Me</h1>
           <p className="page-subtitle">
-            A quick intro in {countWords(renderedMarkdown)} words
+            Enterprise AI, healthcare technology, research, and STEM leadership
           </p>
         </header>
         <article className="about-content">

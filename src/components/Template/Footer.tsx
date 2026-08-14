@@ -31,7 +31,7 @@ export default function Footer() {
           </Link>
           <div className="footer-info">
             <h3>Tulasi Priya Vattikuti</h3>
-            <p className="footer-role">Senior AI/ML Engineer | Researcher | Author</p>
+            <p className="footer-role">Senior AI/ML Engineer | Enterprise AI, AWS and Healthcare Technology</p>
             <ul className="footer-profile-links" aria-label="Professional profiles">
               {profileLinks.map((profile) => (
                 <li key={profile.label}>

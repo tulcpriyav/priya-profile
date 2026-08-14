@@ -76,14 +76,14 @@ I hold AWS Certified Solutions Architect and Scrum Master certifications.`,
       'company',
     ],
     category: 'experience',
-    answer: `I'm currently a Co-founder & CTO at Minimed, where I lead AI/ML infrastructure and product development. I've worked on:
+    answer: `I'm currently a Senior AI/ML Engineer at MiniMed, where I lead AI/ML infrastructure and product development. I've worked on:
 
 • Building scalable ML pipelines on AWS
 • Designing cloud-based data architectures
-• Leading cross-functional engineering teams
-• Architecting LLM-powered applications
+• Integrating Amazon Bedrock and generative AI into enterprise systems
+• Architecting LLM-powered applications for healthcare technology
 
-I bring experience from various roles in data engineering, backend development, and ML infrastructure.`,
+I bring experience from various roles in data engineering, cloud architecture, and ML infrastructure.`,
     suggestedPages: [
       { title: 'View full experience on Resume', path: '/resume' },
       { title: 'See my projects', path: '/projects' },
@@ -146,7 +146,7 @@ Check out my Projects page for detailed case studies and links to my work.`,
       'employ',
     ],
     category: 'contact',
-    answer: `I'm currently focused on building at Minimed as Co-founder & CTO. However, I'm always interested in discussing exciting opportunities in AI/ML engineering and data infrastructure. Feel free to reach out!`,
+    answer: `I'm currently focused on my work as Senior AI/ML Engineer at MiniMed. However, I'm always interested in discussing exciting opportunities in enterprise AI, cloud engineering, and healthcare technology. Feel free to reach out!`,
     suggestedPages: [
       { title: 'Contact me', path: '/contact' },
       { title: 'Check Resume', path: '/resume' },

@@ -15,24 +15,16 @@ export default function Hero() {
         </h1>
 
         <p className="hero-tagline">
-          AI/ML Engineer at{' '}
-          <a href="https://www.minimed.com/" className="hero-highlight">
-            Minimed
-          </a>
-          , I bring strong expertise in data engineering and cloud-based ML
-          infrastructure, with a focus on building scalable, reliable data
-          pipelines that power intelligent systems. I specialize in transforming
-          raw data into high-quality, model-ready datasets, enabling efficient
-          machine learning workflows and real-time insights. I am committed to
-          designing robust, production-grade solutions that support business
-          growth while upholding high standards of performance, reliability, and
-          engineering excellence.
+          Senior AI/ML Engineer specializing in enterprise AI, generative AI, AWS cloud platforms,
+          data engineering and healthcare technology. I build secure, scalable AI and data solutions
+          while contributing to the technology community through research, technical judging, STEM
+          education and mentorship.
         </p>
 
         <div className="hero-chips">
-          <span className="hero-chip">FIT Alum</span>
-          <span className="hero-chip">Developer</span>
-          <span className="hero-chip">Pioneer</span>
+          <span className="hero-chip">Enterprise AI</span>
+          <span className="hero-chip">AWS &amp; MLOps</span>
+          <span className="hero-chip">Healthcare Technology</span>
         </div>
 
         <div className="hero-cta">
@@ -42,7 +34,14 @@ export default function Hero() {
           <Link href="/resume" className="button button-secondary">
             View Resume
           </Link>
+          <Link href="/writing" className="button button-secondary">
+            Explore Research
+          </Link>
         </div>
+
+        <p className="hero-credibility">
+          Research Author · Technical Judge · Girls in Technology Committee Member at WIT
+        </p>
       </div>
 
       <div className="hero-bg" aria-hidden="true">

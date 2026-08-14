@@ -13,7 +13,7 @@ import work from '@/data/resume/work';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    "Tulasi Priya Vattikuti's Resume. Promptfoo, Smile ID, Arthena, Matroid, Stanford ICME, YC alum.",
+    'Senior AI/ML Engineer specializing in enterprise AI, AWS cloud platforms, data engineering, MLOps, generative AI, and healthcare technology.',
 };
 
 export default function ResumePage() {

@@ -14,7 +14,7 @@ export interface Position {
 const work: Position[] = [
   {
     name: 'Medtronic',
-    position: 'Senior Cloud Data Engineer',
+    position: 'Senior AI/ML Engineer',
     url: 'https://www.medtronic.com',
     startDate: '2022-05-01',
     summary: `Led cloud data engineering initiatives at Medtronic, building and optimizing large-scale data pipelines on AWS for healthcare analytics and AI-driven insights while maintaining strict compliance with healthcare data governance and security standards.`,

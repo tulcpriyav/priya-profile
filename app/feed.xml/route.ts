@@ -69,7 +69,7 @@ export async function GET() {
   <channel>
     <title>Tulasi Priya Vattikuti - Writing</title>
     <link>${SITE_URL}/writing</link>
-    <description>Articles on AI security, LLM red teaming, and trust &amp; safety by Tulasi Priya Vattikuti.</description>
+    <description>Articles on enterprise AI, AWS, data engineering, MLOps, and generative AI by Tulasi Priya Vattikuti.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>${rssItems}

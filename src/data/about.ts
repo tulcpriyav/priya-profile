@@ -1,8 +1,24 @@
-export const aboutMarkdown = `# About Me
+export const aboutMarkdown = `## Professional Focus
 
-I am a AI/ML Engineer with over 10+ years of professional experience designing, developing, and delivering scalable software solutions across diverse domains. My expertise lies in building high-performance backend systems using Java and cloud-native technologies, with a strong emphasis on clean architecture, reliability, and long-term maintainability. Throughout my career, I have focused on engineering solutions that not only meet business requirements but also scale efficiently, remain resilient under load, and adapt seamlessly to evolving technological landscapes.
+I am a Senior AI/ML Engineer with more than 10 years of experience working across enterprise technology, cloud data platforms, data engineering, and artificial intelligence. At MiniMed, I work at the intersection of healthcare technology, data, and AI, helping build secure and scalable solutions that transform complex data into reliable insights and intelligent capabilities.
 
-My core technical strengths center around Java, Spring Boot, and AWS. I have extensive experience developing RESTful APIs, implementing microservices architectures, and deploying distributed systems in cloud environments. I am deeply familiar with designing systems that emphasize modularity, fault tolerance, and observability. Whether building a new application from the ground up or modernizing an existing monolithic system, I approach every project with a structured and performance-driven mindset.
+## Enterprise AI & AWS
 
-Over the years, I have worked on complex backend systems that handle large volumes of data and user interactions. I prioritize writing clean, well-documented code that aligns with industry best practices and architectural standards. My experience includes implementing authentication and authorization mechanisms, integrating third-party APIs, optimizing database queries, and enhancing system performance through profiling and monitoring tools. I consistently strive to reduce technical debt while improving system efficiency and reliability.
+My current work focuses on enterprise AI and AWS cloud architecture. I have experience working with services such as Amazon Bedrock, SageMaker, Redshift, Glue, Lambda, Step Functions, S3, and DataZone. I contribute to the development of cloud-based data pipelines, analytics platforms, machine-learning workflows, and generative AI solutions, with an emphasis on security, governance, reliability, and operational scalability.
+
+## Generative AI & MLOps
+
+I am particularly interested in generative AI, large language models, MLOps, responsible AI, and AI-ready data platforms. My work involves connecting governed enterprise data with practical AI applications while considering access control, model evaluation, monitoring, cost management, and production deployment. My goal is to help move AI initiatives beyond experimentation and toward secure, maintainable, and meaningful enterprise use.
+
+## Research & Publications
+
+Beyond my professional work, I contribute to the technology community through research, technical writing, judging, and STEM education. My research interests include healthcare AI, generative AI platforms, data governance, cloud security, scalable LLM inference, and enterprise data architecture. I am also co-authoring *Enterprise AI on AWS*, a forthcoming book focused on building secure, governed, and production-ready AI systems.
+
+## Judging & STEM Leadership
+
+I have served as a technical judge for Technovation Girls and the National TSA Conference, evaluating student projects based on originality, technical execution, feasibility, presentation quality, and real-world impact. I currently serve on the Girls in Technology Committee at Women in Technology (WIT), where I contribute new ideas and support the development and implementation of STEM programs and workshops for students.
+
+## Technical Foundation
+
+My broader background in software development, data integration, cloud engineering, and enterprise systems helps me approach AI from an end-to-end perspective. I focus on creating solutions that are not only technically capable, but also secure, reliable, maintainable, and ready for real-world use.
 `;

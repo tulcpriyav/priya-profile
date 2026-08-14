@@ -122,7 +122,7 @@ export default function BookLandingPage() {
             <div className="book-hero-photo-panel">
               <Image
                 src="/images/priyanew.jpeg"
-                alt="Priya Vattikuti portrait"
+                alt="Tulasi Priya Vattikuti portrait"
                 width={860}
                 height={1200}
                 className="book-hero-photo"
@@ -132,7 +132,7 @@ export default function BookLandingPage() {
 
             <div className="book-hero-content">
               <p className="book-eyebrow">Meet the Author</p>
-              <p className="book-name">PRIYA VATTIKUTI</p>
+              <p className="book-name">TULASI PRIYA VATTIKUTI</p>
               <ul className="book-role-list" aria-label="Author roles">
                 <li>Senior AI/ML Engineer</li>
                 <li>Research Author</li>
