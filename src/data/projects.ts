@@ -11,11 +11,11 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Healthcare Data Platform',
+    title: 'Healthcare Data & AI Platform',
     subtitle: 'Medtronic',
     image: '/images/Healthcare.jpg',
     date: '2024-01-01',
-    desc: 'Built scalable data pipelines and AI-assisted analytics workflows for healthcare data to support clinical reporting and decision support.',
+    desc: 'Built scalable data pipelines and AI-assisted analytics workflows for regulated healthcare data, improving data availability, reliability, and downstream insights.',
     tech: ['Python', 'AWS Glue', 'Spark', 'Bedrock', 'SageMaker'],
     featured: true,
   },

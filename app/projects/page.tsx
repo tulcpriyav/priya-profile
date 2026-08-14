@@ -7,7 +7,7 @@ import data from '@/data/projects';
 export const metadata: Metadata = {
   title: 'Projects',
   description:
-    'A collection of products, experiments, and hackathon builds from Tulasi Priya Vattikuti.',
+    'Selected enterprise projects demonstrating experience in AI, cloud engineering, data platforms, and secure automation.',
 };
 
 export default function ProjectsPage() {
@@ -20,14 +20,12 @@ export default function ProjectsPage() {
         <header className="projects-header">
           <h1 className="page-title">Projects</h1>
           <p className="page-subtitle">
-            A collection of products, experiments, and hackathon builds that
-            reflect how I explore ideas through technology.
+            Selected enterprise projects demonstrating my experience in AI, cloud engineering, data platforms, and secure automation.
           </p>
         </header>
 
         {featuredProjects.length > 0 && (
           <section className="projects-featured">
-            <h2 className="projects-section-title">Featured Work</h2>
             <div className="projects-grid projects-grid--featured">
               {featuredProjects.map((project) => (
                 <Cell data={project} key={project.title} />
@@ -38,7 +36,6 @@ export default function ProjectsPage() {
 
         {otherProjects.length > 0 && (
           <section className="projects-other">
-            <h2 className="projects-section-title">Additional Projects</h2>
             <div className="projects-grid">
               {otherProjects.map((project) => (
                 <Cell data={project} key={project.title} />
@@ -46,6 +43,12 @@ export default function ProjectsPage() {
             </div>
           </section>
         )}
+
+        <section className="projects-disclaimer">
+          <p>
+            <em>Project descriptions are high-level summaries and exclude confidential, proprietary, and sensitive information.</em>
+          </p>
+        </section>
       </section>
     </PageWrapper>
   );

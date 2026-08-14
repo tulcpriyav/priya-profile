@@ -15,16 +15,24 @@ const routes: Route[] = [
     path: '/about',
   },
   {
-    label: 'Resume',
+    label: 'Experience',
     path: '/resume',
   },
   {
-    label: 'Publications & Research',
+    label: 'Projects',
+    path: '/projects',
+  },
+  {
+    label: 'Research',
     path: '/writing',
   },
   {
-    label: 'Judging & Volunteering',
+    label: 'Leadership',
     path: '/judging',
+  },
+  {
+    label: 'Book',
+    path: '/book',
   },
   {
     label: 'Contact',

@@ -12,117 +12,78 @@ export interface Category {
 }
 
 const skills: Skill[] = [
-  // Languages
-  {
-    title: 'Python',
-    competency: 5,
-    category: ['Languages', 'ML Engineering'],
-  },
-  {
-    title: 'TypeScript',
-    competency: 5,
-    category: ['Languages', 'Web Development'],
-  },
-  {
-    title: 'SQL',
-    competency: 4,
-    category: ['Languages', 'Databases'],
-  },
-  // AI & LLM
-  {
-    title: 'AI Agents',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'LLM Evaluation',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'AI Red-teaming',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'LLM APIs',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'RAG',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Prompt Engineering',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Vector Databases',
-    competency: 4,
-    category: ['ML Engineering', 'Databases'],
-  },
-  {
-    title: 'PyTorch',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['ML Engineering', 'Data Engineering'],
-  },
-  // Web Development
-  {
-    title: 'Node.js',
-    competency: 5,
-    category: ['Web Development'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 4,
-    category: ['Web Development'],
-  },
-  {
-    title: 'Next.js',
-    competency: 3,
-    category: ['Web Development'],
-  },
+  // Languages & Automation
+  { title: 'Python', competency: 5, category: ['Languages & Automation'] },
+  { title: 'SQL', competency: 5, category: ['Languages & Automation'] },
+  { title: 'Shell Scripting', competency: 4, category: ['Languages & Automation'] },
+  { title: 'Boto3', competency: 5, category: ['Languages & Automation'] },
+  { title: 'AWS CLI', competency: 4, category: ['Languages & Automation'] },
+
+  // Enterprise AI & Generative AI
+  { title: 'Amazon Bedrock', competency: 5, category: ['Enterprise AI & Generative AI'] },
+  { title: 'SageMaker', competency: 5, category: ['Enterprise AI & Generative AI'] },
+  { title: 'LLM Workflows', competency: 5, category: ['Enterprise AI & Generative AI'] },
+  { title: 'Prompt Engineering', competency: 5, category: ['Enterprise AI & Generative AI'] },
+  { title: 'RAG', competency: 4, category: ['Enterprise AI & Generative AI'] },
+  { title: 'Model Evaluation', competency: 4, category: ['Enterprise AI & Generative AI'] },
+  { title: 'Responsible AI', competency: 4, category: ['Enterprise AI & Generative AI'] },
+
+  // AWS & Cloud
+  { title: 'AWS Glue', competency: 5, category: ['AWS & Cloud'] },
+  { title: 'Lambda', competency: 5, category: ['AWS & Cloud'] },
+  { title: 'Redshift', competency: 5, category: ['AWS & Cloud'] },
+  { title: 'S3', competency: 5, category: ['AWS & Cloud'] },
+  { title: 'DataZone', competency: 4, category: ['AWS & Cloud'] },
+  { title: 'Step Functions', competency: 4, category: ['AWS & Cloud'] },
+  { title: 'IAM', competency: 5, category: ['AWS & Cloud'] },
+  { title: 'EventBridge', competency: 4, category: ['AWS & Cloud'] },
+  { title: 'CloudFormation', competency: 4, category: ['AWS & Cloud'] },
+  { title: 'CloudWatch', competency: 4, category: ['AWS & Cloud'] },
+
+  // Data Engineering
+  { title: 'Apache Spark', competency: 5, category: ['Data Engineering'] },
+  { title: 'PySpark', competency: 5, category: ['Data Engineering'] },
+  { title: 'Hadoop', competency: 4, category: ['Data Engineering'] },
+  { title: 'Hive', competency: 4, category: ['Data Engineering'] },
+  { title: 'Kafka', competency: 4, category: ['Data Engineering'] },
+  { title: 'ETL/ELT', competency: 5, category: ['Data Engineering'] },
+  { title: 'Data Lakes', competency: 5, category: ['Data Engineering'] },
+  { title: 'Pandas', competency: 5, category: ['Data Engineering'] },
+
   // Databases
-  {
-    title: 'PostgreSQL',
-    competency: 4,
-    category: ['Databases'],
-  },
-  {
-    title: 'Redis',
-    competency: 3,
-    category: ['Databases'],
-  },
-  // Infrastructure
-  {
-    title: 'AWS',
-    competency: 4,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Docker',
-    competency: 4,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 3,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Observability',
-    competency: 4,
-    category: ['Infrastructure', 'ML Engineering'],
-  },
-].map((skill) => ({ ...skill, category: skill.category.sort() }));
+  { title: 'PostgreSQL', competency: 4, category: ['Databases'] },
+  { title: 'MySQL', competency: 4, category: ['Databases'] },
+  { title: 'DB2', competency: 4, category: ['Databases'] },
+  { title: 'DynamoDB', competency: 4, category: ['Databases'] },
+  { title: 'Amazon Redshift', competency: 5, category: ['Databases'] },
+
+  // DevOps, Security & Observability
+  { title: 'Git', competency: 5, category: ['DevOps, Security & Observability'] },
+  { title: 'Jenkins', competency: 4, category: ['DevOps, Security & Observability'] },
+  { title: 'IAM Governance', competency: 5, category: ['DevOps, Security & Observability'] },
+  { title: 'Secrets Manager', competency: 5, category: ['DevOps, Security & Observability'] },
+  { title: 'Splunk', competency: 4, category: ['DevOps, Security & Observability'] },
+  { title: 'CI/CD', competency: 4, category: ['DevOps, Security & Observability'] },
+];
+
+// Single consistent blue for all category headings
+const ACCENT_BLUE = '#60A5FA';
+
+function buildCategories(skillsList: Skill[]): Category[] {
+  const uniqueCategories = Array.from(
+    new Set(skillsList.flatMap(({ category }) => category)),
+  );
+
+  return uniqueCategories.map((category) => ({
+    name: category,
+    color: ACCENT_BLUE,
+    textColor: 'dark' as const,
+  }));
+}
+
+const categories: Category[] = buildCategories(skills);
+
+export { categories, skills };
 
 /**
  * Category colors with pre-computed text contrast.
@@ -133,57 +94,3 @@ const skills: Skill[] = [
  * --color-skill-1: #6968b3, --color-skill-2: #37b1f5, --color-skill-3: #40494e
  * --color-skill-4: #515dd4, --color-skill-5: #e47272, --color-skill-6: #cc7b94
  */
-const CATEGORY_COLORS: { color: string; textColor: 'dark' | 'light' }[] = [
-  { color: 'var(--color-skill-1)', textColor: 'light' }, // #6968b3 - dark bg
-  { color: 'var(--color-skill-2)', textColor: 'dark' }, // #37b1f5 - light bg
-  { color: 'var(--color-skill-3)', textColor: 'light' }, // #40494e - dark bg
-  { color: 'var(--color-skill-4)', textColor: 'light' }, // #515dd4 - dark bg
-  { color: 'var(--color-skill-5)', textColor: 'dark' }, // #e47272 - light bg
-  { color: 'var(--color-skill-6)', textColor: 'dark' }, // #cc7b94 - light bg
-];
-
-// Fallback colors for categories beyond the predefined set (with pre-computed contrast)
-const FALLBACK_COLORS: { color: string; textColor: 'dark' | 'light' }[] = [
-  { color: '#3896e2', textColor: 'dark' },
-  { color: '#c3423f', textColor: 'light' },
-  { color: '#d75858', textColor: 'light' },
-  { color: '#747fff', textColor: 'light' },
-  { color: '#64cb7b', textColor: 'dark' },
-];
-
-/**
- * Build categories from skills with type-safe color assignment.
- * Logs a warning in development if there are more categories than colors.
- */
-function buildCategories(skillsList: Skill[]): Category[] {
-  const uniqueCategories = Array.from(
-    new Set(skillsList.flatMap(({ category }) => category)),
-  ).sort();
-
-  const allColors = [...CATEGORY_COLORS, ...FALLBACK_COLORS];
-
-  if (
-    process.env.NODE_ENV === 'development' &&
-    uniqueCategories.length > allColors.length
-  ) {
-    console.warn(
-      `[skills.ts] Warning: ${uniqueCategories.length} categories but only ${allColors.length} colors defined`,
-    );
-  }
-
-  return uniqueCategories.map((category, index) => {
-    const colorConfig = allColors[index] ?? {
-      color: '#888888',
-      textColor: 'light' as const,
-    };
-    return {
-      name: category,
-      color: colorConfig.color,
-      textColor: colorConfig.textColor,
-    };
-  });
-}
-
-const categories: Category[] = buildCategories(skills);
-
-export { categories, skills };

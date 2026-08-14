@@ -33,11 +33,10 @@
   font-weight: var(--font-weight-black);
   text-transform: uppercase;
   letter-spacing: var(--tracking-wide);
-  /* Use CSS custom property if set, fallback to default */
-  color: var(--skill-category-color, var(--color-fg-bold));
+  color: #60A5FA;
   margin-bottom: 1.25rem;
   padding-bottom: 0.75rem;
-  border-bottom: 3px solid var(--color-accent);
+  border-bottom: 3px solid #60A5FA;
   display: inline-block;
 }
 

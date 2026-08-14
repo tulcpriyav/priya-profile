@@ -1,0 +1,87 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 4 0 R >> >> >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1720 >>
+stream
+BT
+/F1 18 Tf
+54 760 Td
+(Enterprise AI on AWS) Tj
+/F1 14 Tf
+0 -28 Td
+(Full Chapter List) Tj
+/F1 11 Tf
+0 -30 Td
+(Chapter 1. Introduction to Enterprise AI) Tj
+0 -22 Td
+(Chapter 2. IAM Role Lifecycle Management and Identity Governance) Tj
+0 -22 Td
+(Chapter 3. Zero Trust Architecture for Multi-Account AI and Data Platforms) Tj
+0 -22 Td
+(Chapter 4. Designing Enterprise AI Solutions) Tj
+0 -22 Td
+(Chapter 5. Training Machine Learning Models) Tj
+0 -22 Td
+(Chapter 6. Fair Benchmarking of Local LLMs for Enterprise Deployment) Tj
+0 -22 Td
+(Chapter 7. LLM Optimization and Fine-Tuning) Tj
+0 -22 Td
+(Chapter 8. Model Inference and Serving) Tj
+0 -22 Td
+(Chapter 9. Enterprise Generative AI Fundamentals) Tj
+0 -22 Td
+(Chapter 10. Building Enterprise RAG and Custom GPT Applications) Tj
+0 -22 Td
+(Chapter 11. Building a Secure and Governed Multi-Tenant Generative AI Platform) Tj
+0 -22 Td
+(Chapter 12. Enterprise Agent Architectures and Amazon Bedrock AgentCore) Tj
+0 -22 Td
+(Chapter 13. AI for Diabetes Healthcare and HIPAA-Aware Clinical Intelligence) Tj
+0 -22 Td
+(Chapter 14. Healthcare GPT and Governed Enterprise Assistants) Tj
+0 -22 Td
+(Chapter 15. Deploying Enterprise AI on Containers) Tj
+0 -22 Td
+(Chapter 16. Secure Access for AI and Data Workloads) Tj
+0 -22 Td
+(Chapter 17. Responsible AI, Privacy, and Regulatory Compliance) Tj
+0 -22 Td
+(Chapter 18. Data Lineage and Metadata Intelligence) Tj
+0 -22 Td
+(Chapter 19. Scaling Analytics with Amazon Redshift Data Sharing) Tj
+0 -22 Td
+(Chapter 20. AI in Production) Tj
+0 -22 Td
+(Chapter 21. Automated Cloud Cost Management) Tj
+0 -22 Td
+(Chapter 22. Enterprise AI Platform Reference Architecture) Tj
+0 -22 Td
+(Chapter 23. The Future of Enterprise AI Platforms) Tj
+0 -22 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2083
+%%EOF

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import PageWrapper from '@/components/Template/PageWrapper';
 
 export const metadata: Metadata = {
-  title: 'Judging & Volunteering',
-  description: 'Judging and volunteering experience with Technovation Girls and technology programs.',
+  title: 'Leadership',
+  description: 'Technical judging, STEM volunteering, and community leadership including Technovation Girls, National TSA Conference, and Women in Technology.',
 };
 
 const projects = [
@@ -27,7 +27,7 @@ export default function JudgingPage() {
     <PageWrapper>
       <article className="judging-page">
         <header className="judging-header">
-          <h1 className="page-title">Judging & Volunteering</h1>
+          <h1 className="page-title">Leadership</h1>
         </header>
 
         <div className="judging-content">
