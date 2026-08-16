@@ -32,7 +32,7 @@ export default function Hero() {
             About Me
           </Link>
           <Link href="/resume" className="button button-secondary">
-            View Resume
+            View Experience
           </Link>
           <Link href="/writing" className="button button-secondary">
             Explore Research

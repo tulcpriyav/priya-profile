@@ -1,25 +1,24 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useEffect, useRef, useState } from 'react';
 
 type SubmitState = 'idle' | 'sending' | 'success' | 'error';
 
-const FORM_ENDPOINT = 'https://formsubmit.co/ajax/tulcpriya@gmail.com';
+// Replace with a dedicated Formspree form ID for book signups (create at https://formspree.io)
+// Using contact form endpoint temporarily
+const FORM_ENDPOINT = 'https://formspree.io/f/mqpzdrwr';
 
 export default function BookNewsletterForm() {
   const [submitState, setSubmitState] = useState<SubmitState>('idle');
   const [feedback, setFeedback] = useState('');
+  const successTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => () => { if (successTimerRef.current) clearTimeout(successTimerRef.current); }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const form = event.currentTarget;
-    if (!form.reportValidity()) {
-      setSubmitState('error');
-      setFeedback('Please enter a valid email address.');
-      return;
-    }
-
     const formData = new FormData(form);
     const email = String(formData.get('email') ?? '').trim();
 
@@ -29,29 +28,25 @@ export default function BookNewsletterForm() {
       return;
     }
 
-    formData.set('email', email);
-
     setSubmitState('sending');
-    setFeedback('Sending...');
+    setFeedback('');
 
     try {
       const response = await fetch(FORM_ENDPOINT, {
         method: 'POST',
-        headers: {
-          Accept: 'application/json',
-        },
-        body: formData,
+        headers: { Accept: 'application/json' },
+        body: JSON.stringify({ email, _subject: 'Book Updates: New Subscriber', source: 'book-page' }),
       });
 
-      if (!response.ok) {
-        throw new Error('Submission failed');
-      }
+      if (!response.ok) throw new Error('Submission failed');
 
       setSubmitState('success');
-      setFeedback(
-        'Thanks. Your request was sent successfully. Check your inbox for confirmation.',
-      );
+      setFeedback("You're on the list. I'll send updates as the book progresses.");
       form.reset();
+      successTimerRef.current = setTimeout(() => {
+        setSubmitState('idle');
+        setFeedback('');
+      }, 8000);
     } catch {
       setSubmitState('error');
       setFeedback('Could not send right now. Please try again in a moment.');
@@ -60,23 +55,7 @@ export default function BookNewsletterForm() {
 
   return (
     <>
-      <form className="book-newsletter-form" onSubmit={handleSubmit}>
-        <input type="hidden" name="_subject" value="New Book Waitlist Signup" />
-        <input
-          type="hidden"
-          name="_autoresponse"
-          value="Thanks for joining the journey. You are on the Enterprise AI on AWS updates list."
-        />
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_template" value="table" />
-        <input
-          type="text"
-          name="_honey"
-          tabIndex={-1}
-          autoComplete="off"
-          className="book-hidden-field"
-        />
-
+      <form className="book-newsletter-form" onSubmit={handleSubmit} noValidate>
         <label htmlFor="book-newsletter-email" className="sr-only">
           Email address
         </label>

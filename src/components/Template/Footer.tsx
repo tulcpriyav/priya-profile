@@ -47,8 +47,7 @@ export default function Footer() {
               ))}
             </ul>
             <p className="footer-copyright">
-              &copy; {new Date().getFullYear()} ·{' '}
-              <span className="footer-source">Source</span>
+              &copy; {new Date().getFullYear()} Tulasi Priya Vattikuti
             </p>
           </div>
         </div>
@@ -60,7 +59,7 @@ export default function Footer() {
             </h4>
             <div className="footer-links-grid">
               <Link href="/about">About</Link>
-              <Link href="/resume">Resume</Link>
+              <Link href="/resume">Experience</Link>
               <Link href="/projects">Projects</Link>
               <Link href="/contact">Contact</Link>
             </div>

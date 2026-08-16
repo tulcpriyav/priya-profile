@@ -27,7 +27,7 @@ const raleway = Raleway({
   adjustFontFallback: true,
 });
 
-const siteDescription = 'AI/ML Engineer | AWS Certified | Scrum Certified';
+const siteDescription = 'Senior AI/ML Engineer specializing in enterprise AI, generative AI, AWS cloud platforms, data engineering, and healthcare technology.';
 
 export const metadata: Metadata = {
   title: {

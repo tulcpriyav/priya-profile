@@ -33,7 +33,7 @@ export const chatbotQA: QAPair[] = [
     answer: `I'm Tulasi Priya Vattikuti, an AI/ML Engineer passionate about building scalable data infrastructure and cloud-based ML systems. I specialize in data engineering, machine learning, and AWS technologies.`,
     suggestedPages: [
       { title: 'View full About page', path: '/about' },
-      { title: 'See my Resume', path: '/resume' },
+      { title: 'See my Experience', path: '/resume' },
     ],
   },
   {
@@ -59,7 +59,7 @@ export const chatbotQA: QAPair[] = [
 
 I hold AWS Certified Solutions Architect and Scrum Master certifications.`,
     suggestedPages: [
-      { title: 'View full Resume with skills', path: '/resume' },
+      { title: 'View full Experience with skills', path: '/resume' },
       { title: 'Explore projects', path: '/projects' },
     ],
   },
@@ -85,7 +85,7 @@ I hold AWS Certified Solutions Architect and Scrum Master certifications.`,
 
 I bring experience from various roles in data engineering, cloud architecture, and ML infrastructure.`,
     suggestedPages: [
-      { title: 'View full experience on Resume', path: '/resume' },
+      { title: 'View full Experience', path: '/resume' },
       { title: 'See my projects', path: '/projects' },
     ],
   },
@@ -149,7 +149,7 @@ Check out my Projects page for detailed case studies and links to my work.`,
     answer: `I'm currently focused on my work as Senior AI/ML Engineer at MiniMed. However, I'm always interested in discussing exciting opportunities in enterprise AI, cloud engineering, and healthcare technology. Feel free to reach out!`,
     suggestedPages: [
       { title: 'Contact me', path: '/contact' },
-      { title: 'Check Resume', path: '/resume' },
+      { title: 'Check Experience', path: '/resume' },
     ],
   },
   {
@@ -180,7 +180,7 @@ Head to the Contact page for all my social links!`,
     keywords: ['resume', 'cv', 'curriculum', 'vitae', 'download'],
     category: 'general',
     answer: `Sure! You can view my full resume on the Resume page of this site. It includes my work experience, education, skills, and certifications.`,
-    suggestedPages: [{ title: 'View Resume', path: '/resume' }],
+    suggestedPages: [{ title: 'View Experience', path: '/resume' }],
   },
   {
     id: 'data-engineering',
@@ -203,7 +203,7 @@ Head to the Contact page for all my social links!`,
 
 I focus on creating pipelines that are maintainable, efficient, and built for scale.`,
     suggestedPages: [
-      { title: 'View Resume', path: '/resume' },
+      { title: 'View Experience', path: '/resume' },
       { title: 'See projects', path: '/projects' },
     ],
   },
@@ -228,7 +228,7 @@ I focus on creating pipelines that are maintainable, efficient, and built for sc
 
 My goal is to make ML accessible, scalable, and production-ready.`,
     suggestedPages: [
-      { title: 'View Resume', path: '/resume' },
+      { title: 'View Experience', path: '/resume' },
       { title: 'See projects', path: '/projects' },
     ],
   },
