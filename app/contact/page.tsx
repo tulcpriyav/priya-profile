@@ -1,35 +1,19 @@
 import type { Metadata } from 'next';
 
-import ContactIcons from '@/components/Contact/ContactIcons';
-import EmailLink from '@/components/Contact/EmailLink';
-
+import ContactForm from '@/components/Contact/ContactForm';
 import PageWrapper from '@/components/Template/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact Tulasi Priya Vattikuti via email @ tulcpriya@gmail.com',
+  description:
+    'Get in touch with Tulasi Priya Vattikuti for AI and healthcare discussions, research collaborations, speaking opportunities, and STEM initiatives.',
 };
 
 export default function ContactPage() {
   return (
     <PageWrapper>
       <section className="contact-page">
-        <header className="contact-header">
-          <h1 className="page-title">Get in Touch</h1>
-        </header>
-
-        <div className="contact-content">
-          <div className="contact-email-block">
-            <EmailLink />
-            <p className="contact-hint">Usually respond within 24 hours</p>
-          </div>
-
-          <div className="contact-divider">
-            <span>or find me on</span>
-          </div>
-
-          <ContactIcons />
-        </div>
+        <ContactForm />
       </section>
     </PageWrapper>
   );

@@ -68,7 +68,7 @@
 
 .nav-link.active {
   color: var(--color-accent);
-  background-color: var(--color-accent-light);
+  background-color: transparent;
 }
 
 .nav-link.active::after {
