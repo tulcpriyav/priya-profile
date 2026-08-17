@@ -26,9 +26,10 @@ export function Chatbot() {
   const handleSuggestedQuestion = (questionId: string) => {
     const question =
       {
-        who: 'Who are you?',
+        intro: 'Who are you?',
         skills: 'What are your skills?',
         projects: 'Tell me about your projects',
+        research: 'Tell me about research and publications',
         contact: 'How can I contact you?',
       }[questionId] || '';
     if (question) {
@@ -67,7 +68,7 @@ export function Chatbot() {
         <div className={styles.modal}>
           {/* Header */}
           <div className={styles.header}>
-            <h2 className={styles.title}>Chat with me!</h2>
+            <h2 className={styles.title}>Tulasi&rsquo;s AI Assistant</h2>
             <button
               className={styles.closeButton}
               onClick={() => setIsOpen(false)}

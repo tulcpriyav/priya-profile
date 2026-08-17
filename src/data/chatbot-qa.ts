@@ -18,10 +18,10 @@ export interface QAPair {
 }
 
 export const suggestedQuestions = [
-  { text: 'Who are you?', id: 'intro' },
-  { text: 'What skills do you have?', id: 'skills' },
-  { text: 'Tell me about your projects', id: 'projects' },
-  { text: 'How can I contact you?', id: 'contact' },
+  { text: 'About Tulasi', id: 'intro' },
+  { text: 'Experience & skills', id: 'skills' },
+  { text: 'AI & cloud projects', id: 'projects' },
+  { text: 'Research & publications', id: 'research' },
 ];
 
 export const chatbotQA: QAPair[] = [
@@ -181,6 +181,17 @@ Head to the Contact page for all my social links!`,
     category: 'general',
     answer: `Sure! You can view my full resume on the Resume page of this site. It includes my work experience, education, skills, and certifications.`,
     suggestedPages: [{ title: 'View Experience', path: '/resume' }],
+  },
+  {
+    id: 'research',
+    question: 'Tell me about research and publications',
+    keywords: ['research', 'publications', 'papers', 'writing', 'articles', 'book', 'author'],
+    category: 'about',
+    answer: `Tulasi is a published researcher and technical author. She has authored research papers and technical writing on AI, machine learning, and cloud engineering. She is currently writing a book on enterprise AI on AWS. Her work is available on Google Scholar and ORCID.`,
+    suggestedPages: [
+      { title: 'View Research', path: '/writing' },
+      { title: 'Upcoming Book', path: '/book' },
+    ],
   },
   {
     id: 'data-engineering',

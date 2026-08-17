@@ -24,7 +24,7 @@ export function useChat() {
     {
       id: '1',
       type: 'bot',
-      content: `Hi! 👋 I'm here to help you learn more about Tulasi. Ask me about:`,
+      content: `Hi! 👋 I can help you explore Tulasi's experience, projects, research, leadership, and upcoming book.`,
       timestamp: new Date(),
       suggestedQuestions,
     },
