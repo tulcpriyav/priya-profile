@@ -110,6 +110,89 @@ export default function JudgingPage() {
 
           <section className="judging-section">
             <div className="judging-heading">
+              <a href="https://hophacks.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/hophacks.jpg"
+                  alt="HopHacks logo"
+                  className="judging-logo"
+                />
+              </a>
+              <div>
+                <h2>Hackathon Judge</h2>
+                <p><strong>Johns Hopkins University — HopHacks 2026</strong></p>
+              </div>
+            </div>
+            <p>
+              Served as a <strong>Hackathon Judge at HopHacks 2026</strong>, hosted by the prestigious
+              <strong> Johns Hopkins University</strong> in Baltimore, Maryland. HopHacks brings together talented
+              students, aspiring engineers, developers, and innovators to collaborate on technology-driven solutions
+              addressing real-world challenges.
+            </p>
+            <p>
+              As a judge, evaluated student-led technology projects based on technical complexity, innovation,
+              creativity, practical applicability, problem-solving approaches, and overall execution. Assessed how
+              effectively participating teams translated their ideas into functional solutions, demonstrated technical
+              capabilities, and communicated the potential impact of their projects.
+            </p>
+            <p>
+              Drawing upon professional expertise in Artificial Intelligence, Machine Learning, Generative AI, Cloud
+              Computing, and Software Engineering, contributed technical perspectives during project evaluations and
+              provided constructive feedback to help participants strengthen their solutions, technical approaches, and
+              presentations.
+            </p>
+            <p>
+              Through this engagement at <strong>Johns Hopkins University</strong>, supported the development of
+              emerging technology talent, encouraged interdisciplinary collaboration, and contributed to an environment
+              that promotes innovation, entrepreneurship, and the practical application of advanced technologies.
+            </p>
+            <p>
+              This judging experience reflects an ongoing commitment to technical excellence, professional leadership,
+              STEM education, and mentoring the next generation of technology innovators.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
+              <a href="https://www.digitalhealthawards.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/DigitalHealth.jpg"
+                  alt="Digital Health & AI Awards logo"
+                  className="judging-logo"
+                />
+              </a>
+              <div>
+                <h2>Digital Health &amp; AI Awards Judge</h2>
+                <p><strong>Digital Health Hub Foundation | Digital Health &amp; AI Innovation</strong></p>
+              </div>
+            </div>
+            <p>
+              Served as a judge for the <strong>2026 Digital Health &amp; AI Awards</strong>, an initiative recognizing
+              innovation and technological advancements across the digital health and healthcare artificial intelligence
+              ecosystem.
+            </p>
+            <p>
+              Contributed to the evaluation of innovative healthcare technology companies and solutions, focusing on
+              their potential to address healthcare challenges, improve patient outcomes, and advance the adoption of
+              emerging technologies.
+            </p>
+            <p>
+              Drawing upon professional expertise in Artificial Intelligence, Machine Learning, Generative AI,
+              Cloud Computing, and Healthcare Data Engineering, brought a technical perspective to the
+              evaluation process, considering innovation, technological capabilities, practical applications,
+              scalability, and potential healthcare impact.
+            </p>
+            <p>
+              Through this judging engagement, supported the recognition of promising digital health innovations and
+              contributed to the broader mission of advancing technology-driven healthcare transformation.
+            </p>
+            <p>
+              This experience reflects an ongoing commitment to AI innovation, healthcare technology
+              leadership, technical evaluation, and supporting meaningful advancements in digital health.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
               <a href="https://www.womenintechnology.org/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/witlogo.jpg"
