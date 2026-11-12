@@ -42,6 +42,52 @@ export default function JudgingPage() {
 
           <section className="judging-section">
             <div className="judging-heading">
+              <a href="https://www.cta.tech/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/ceslogo.jpg"
+                  alt="CES Innovation Awards logo"
+                  className="judging-logo"
+                />
+              </a>
+              <div>
+                <h2>CES Innovation Awards 2027 — AI Judge</h2>
+                <p><strong>Consumer Technology Association (CTA)</strong></p>
+              </div>
+            </div>
+            <p>
+              Selected to serve as a judge for the prestigious CES Innovation Awards 2027 in the Artificial
+              Intelligence category, completing <strong>13 product evaluations</strong> across emerging and advanced
+              consumer technologies.
+            </p>
+            <p>
+              My judging assignments included innovative product submissions from globally recognized technology
+              companies and emerging industry innovators, including <strong>LG, ASUS, MSI, Novatek
+              Microelectronics, AGIBOT, and Nanoleaf</strong>.
+            </p>
+            <p>
+              The evaluation process involved assessing technological innovation, technical capabilities,
+              functionality, design, and potential real-world impact. This opportunity allowed me to apply my expertise
+              in Artificial Intelligence, Machine Learning, and emerging technologies to the independent assessment of
+              next-generation consumer technology solutions.
+            </p>
+            <p>
+              This year's program received a record-breaking <strong>3,900+ submissions</strong> across
+              <strong> 37 product categories</strong> worldwide, reflecting the remarkable pace of global
+              technological advancement and the high bar for innovation in the technology ecosystem.
+            </p>
+            <p>
+              I am grateful to receive the <strong>official Certificate of Recognition</strong> from the Consumer
+              Technology Association and to be featured in the <strong>CES Innovation Awards Judges Gallery</strong>.
+              Being part of an initiative that recognizes and celebrates technological excellence has been a highly
+              rewarding professional experience.
+            </p>
+            <p>
+              <strong>Recognition:</strong> Official CES Innovation Awards 2027 Judge Certificate.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
               <a href="https://technovationchallenge.org/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/technovation.jpg"
@@ -153,7 +199,7 @@ export default function JudgingPage() {
 
           <section className="judging-section">
             <div className="judging-heading">
-              <a href="https://www.digitalhealthawards.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.digitalhealthhub.org/awards/2026/digital-health-awards" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/DigitalHealth.jpg"
                   alt="Digital Health & AI Awards logo"
@@ -221,17 +267,90 @@ export default function JudgingPage() {
             </p>
           </section>
 
+          <section className="judging-section">
+            <h2>Technical &amp; Academic Peer Reviewer</h2>
+            <p>
+              Contributing to the advancement of research and innovation through independent technical evaluation of
+              scholarly manuscripts across artificial intelligence, machine learning, blockchain, and emerging
+              technologies. Peer-review activities focus on assessing technical rigor, research methodology,
+              originality, practical relevance, and the quality of scientific contributions.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
+              <div>
+                <h2>WiML Workshop @ NeurIPS 2026 — Reviewer</h2>
+                <p><strong>Women in Machine Learning (WiML) | NeurIPS 2026</strong></p>
+              </div>
+            </div>
+            <p>
+              Served as a reviewer for the Women in Machine Learning Workshop at NeurIPS 2026, contributing to the
+              evaluation of research submissions in machine learning and artificial intelligence. Review responsibilities
+              included assessing technical quality, methodological soundness, originality, clarity, and potential
+              research impact.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
+              <div>
+                <h2>NeurIPS 2026 DynaFront Workshop — Reviewer</h2>
+                <p><strong>DynaFront Workshop | NeurIPS 2026</strong></p>
+              </div>
+            </div>
+            <p>
+              Contributed as a technical reviewer for the DynaFront Workshop at NeurIPS 2026, evaluating research
+              submissions related to machine learning and emerging AI methodologies. Provided technical assessments
+              focused on research contributions, methodological rigor, experimental validation, and clarity of
+              presentation.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
+              <div>
+                <h2>68th International Conference on Application of Blockchain (2026) — Technical Reviewer</h2>
+                <p><strong>International Conference on Application of Blockchain | 2026</strong></p>
+              </div>
+            </div>
+            <p>
+              Served as a technical reviewer, completing evaluations of <strong>25 research papers</strong> covering
+              blockchain technologies and their applications. Assessed research originality, technical soundness,
+              proposed methodologies, implementation approaches, and practical relevance, providing constructive
+              feedback to support scholarly quality.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
+              <div>
+                <h2>70th International Conference on Multidisciplinary Research Application of AI in Education Science and Technology (ICMRAAEST-2026) — Technical Reviewer</h2>
+                <p><strong>International Conference | 2026</strong></p>
+              </div>
+            </div>
+            <p>
+              Contributed as a technical reviewer for the 70th International Conference on Multidisciplinary Research
+              Application of AI in Education Science and Technology (ICMRAAEST-2026), participating in the evaluation of
+              scholarly research submissions across engineering and emerging technology disciplines. Review activities
+              focused on technical accuracy, research methodology, originality, clarity, and the significance of
+              proposed contributions.
+            </p>
+          </section>
+
           <section className="judging-reflection">
             <p>
-              My judging experiences with Technovation Girls and the National TSA Conference have strengthened my passion
-              for responsible and purpose-driven technology. These opportunities remind me that innovation is not only
-              about building software, but also about understanding people, solving meaningful problems, and creating
-              positive impact through technology.
+              My experience as a judge for the <strong>CES Innovation Awards 2027, Technovation Girls, National TSA
+              Conference, and other national and international technology competitions</strong>, along with my
+              contributions as a technical and academic peer reviewer, reflects my commitment to advancing innovation
+              and technical excellence. Through these roles, I have evaluated emerging technologies, innovative
+              solutions, and research contributions, emphasizing technical rigor, real-world applicability, responsible
+              innovation, and meaningful societal impact.
             </p>
             <p>
-              My judging interests include AI/ML, Generative AI, data engineering, cloud platforms, healthcare
-              technology, accessibility, sustainability, cybersecurity, responsible innovation, and social impact
-              applications.
+              My areas of judging and peer-review expertise include <strong>Artificial Intelligence (AI), Machine
+              Learning (ML), Generative AI, Data Engineering, Cloud Computing, Healthcare AI, Blockchain,
+              Cybersecurity, Responsible AI, Accessibility, Sustainability, and Emerging Technologies</strong>.
             </p>
           </section>
         </div>
