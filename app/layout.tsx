@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     default: AUTHOR_NAME,
     template: `%s | ${AUTHOR_NAME}`,
   },
+  icons: {
+    icon: '/images/favicon/favicon.svg',
+    shortcut: '/images/favicon/favicon.svg',
+    apple: '/images/favicon/apple-icon.png',
+  },
   description: siteDescription,
   keywords: [
     'Tulasi Priya Vattikuti',
@@ -100,6 +105,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <link rel="icon" href="/images/favicon/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/images/favicon/apple-icon.png" />
+        <link rel="manifest" href="/images/favicon/manifest.json" />
         {/* CSP-safe theme initialization - prevents flash on load */}
         <Script id="theme-init" strategy="beforeInteractive">
           {`(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t)}else if(window.matchMedia('(prefers-color-scheme:dark)').matches){document.documentElement.setAttribute('data-theme','dark')}else{document.documentElement.setAttribute('data-theme','light')}}catch(e){}})();`}
