@@ -88,6 +88,35 @@ export default function JudgingPage() {
 
           <section className="judging-section">
             <div className="judging-heading">
+              <a href="https://www.futureengineers.org/nasatechrise" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images/nasa.jpg"
+                  alt="NASA TechRise Student Challenge logo"
+                  className="judging-logo"
+                />
+              </a>
+              <div>
+                <h2>NASA TechRise Student Challenge 2026–2027 — Judge</h2>
+                <p><strong>Future Engineers</strong></p>
+              </div>
+            </div>
+            <p>
+              Recognized as a judge for the <strong>NASA TechRise Student Challenge 2026–2027</strong>, a
+              NASA-supported initiative encouraging student innovation in aerospace, engineering, and scientific
+              experimentation.
+            </p>
+            <p>
+              Contributing to the evaluation of student proposals, focusing on scientific innovation, technical
+              feasibility, experimental design, and potential real-world impact. This role reflects my commitment to
+              supporting emerging innovators and advancing excellence in STEM education.
+            </p>
+            <p>
+              <strong>Recognition:</strong> NASA TechRise Student Challenge 2026–2027 Judge Certificate of Appreciation.
+            </p>
+          </section>
+
+          <section className="judging-section">
+            <div className="judging-heading">
               <a href="https://technovationchallenge.org/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/images/technovation.jpg"
@@ -340,17 +369,19 @@ export default function JudgingPage() {
 
           <section className="judging-reflection">
             <p>
-              My experience as a judge for the <strong>CES Innovation Awards 2027, Technovation Girls, National TSA
-              Conference, and other national and international technology competitions</strong>, along with my
-              contributions as a technical and academic peer reviewer, reflects my commitment to advancing innovation
-              and technical excellence. Through these roles, I have evaluated emerging technologies, innovative
-              solutions, and research contributions, emphasizing technical rigor, real-world applicability, responsible
-              innovation, and meaningful societal impact.
+              My experience as a judge for the <strong>CES Innovation Awards 2027, NASA TechRise Student Challenge,
+              Technovation Girls, National TSA Conference, and other national and international technology
+              competitions</strong>, alongside my contributions as a technical and academic peer reviewer, reflects my
+              commitment to advancing technological innovation, research excellence, and responsible innovation.
+              Through these roles, I have evaluated emerging technologies, innovative solutions, student-led projects,
+              and scholarly research, with an emphasis on technical rigor, originality, real-world applicability, and
+              meaningful societal impact.
             </p>
             <p>
               My areas of judging and peer-review expertise include <strong>Artificial Intelligence (AI), Machine
               Learning (ML), Generative AI, Data Engineering, Cloud Computing, Healthcare AI, Blockchain,
-              Cybersecurity, Responsible AI, Accessibility, Sustainability, and Emerging Technologies</strong>.
+              Cybersecurity, Responsible AI, Aerospace and Engineering Innovation, Accessibility, Sustainability,
+              and Emerging Technologies</strong>.
             </p>
           </section>
         </div>
